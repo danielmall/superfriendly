@@ -117,11 +117,18 @@ sub, sup { line-height: 0; }
 
 
 
+
 /*-------------------------------------------    
     Wireframes
 -------------------------------------------*/
 .main-nav mark { background: yellow; }
-.wf { background: #eee; padding: 2em; margin: 0 1% 1em; }
+.wf { background: #eee; background: rgba(0, 0, 0, 0.1); padding: 2em; margin: 0 1% 1em; }
+
+
+/*-------------------------------------------    
+    Layout
+-------------------------------------------*/
+.col50 { width: 46%; float: left; padding-left: 1%; padding-right: 1%; }
 
 
 
@@ -130,3 +137,6 @@ sub, sup { line-height: 0; }
 -------------------------------------------*/
 
 .nested1 { margin: 0 0 0 25px; }
+
+.main { width: 70%; float: left; padding: 3em 0 0; }
+.main-nav { float: right; width: 25%; padding: 4em 0 0 5%; }

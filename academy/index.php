@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>About SuperFriendly</title>
+    <title>SuperFriendly Academy</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,44 +19,31 @@
 
         <div class="main">
 
-            <h1>About SuperFriendly</h1>
+            <h1>SuperFriendly Academy</h1>
 
             <section class="wf">
-                <h2>How we Work</h2>
+                <h2>About the Academy</h2>
+            </section>
+
+            <section class="wf clearfix">
+
+                <h2>Alumni</h2>
+
+                <div class="col50 wf">
+                    <h2>Josh</h2>
+                </div>
+
+                <div class="col50 wf">
+                    <h2>Greg</h2>
+                </div>
+
             </section>
 
             <section class="wf">
-                <h2>The SuperFriendly Model</h2>
+                <h2><a href="#">Apply</a></h2>
             </section>
 
-            <section class="wf">
-                <h2>Partners</h2>
-                <ul>
-                    <li>Kevin M. Hoffman</li>
-                    <li>Kyle Steed</li>
-                    <li>Philip Zaengle</li>
-                    <li>Ivan Askwith</li>
-                    <li>Brad Frost</li>
-                    <li>Jennifer Brook</li>
-                    <li>Jonathan Stark</li>
-                    <li>Robert Gorell</li>
-                    <li>Damian Atkinson</li>
-                    <li>Zach McNair</li>
-                    <li>Robert Jolly</li>
-                    <li>Dan Rubin</li>
-                    <li>Tim Kadlec</li>
-                    <li>Phil Sierzega</li>
-                    <li>Charlie Whitney</li>
-                    <li>Hilary Fenton</li>
-                    <li>Jenn Lukas</li>
-                    <li>Lifeislottery</li>
-                    <li>Bold</li>
-                    <li>Monastery</li>
-                    <li>Global Moxie</li>
-                    <li>Arbitrary</li>
-                    <li>10up</li>
-                </ul>
-            </section>
+            
 
         </div><!-- .main -->
 

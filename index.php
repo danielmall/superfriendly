@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly: A design collective that makes braves sites and apps for screens of all sizes</title>
+    <title>SuperFriendly: Braves sites and apps for screens of all sizes</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -12,10 +12,22 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
 
-    <h1>SuperFriendly</h1>
-    <h2>Brave sites and apps for screens of all sizes.</h2>
+    <div class="clearfix">
+
+	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
+
+	    <div class="main">
+		    <h1>SuperFriendly</h1>
+		    <h2>Brave sites and apps for screens of all sizes.</h2>
+
+            <section class="wf" style="height: 20em;">
+                <h2>Intro</h2>
+            </section><!-- .wf -->
+
+        </div><!-- .main -->
+
+	</div><!-- .clearfix -->
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>
 
