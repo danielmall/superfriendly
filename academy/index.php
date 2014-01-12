@@ -21,7 +21,7 @@
 
             <h1>SuperFriendly Academy</h1>
 
-            <section class="wf">
+            <section class="wf" style="height: 20em;">
                 <h2>About the Academy</h2>
             </section>
 
@@ -29,17 +29,17 @@
 
                 <h2>Alumni</h2>
 
-                <div class="col50 wf">
+                <div class="col50 wf" style="height: 20em;">
                     <h2>Josh</h2>
                 </div>
 
-                <div class="col50 wf">
+                <div class="col50 wf" style="height: 20em;">
                     <h2>Greg</h2>
                 </div>
 
             </section>
 
-            <section class="wf">
+            <section class="wf" style="height: 20em;">
                 <h2><a href="#">Apply</a></h2>
             </section>
 
