@@ -23,6 +23,7 @@
 
             <section class="wf" style="height: 30em;">
                 <h2>Overview and brief</h2>
+                <p><strong>Services</strong>: <a href="<?=$basepath?>/services/web/">web</a>, <a href="<?=$basepath?>/services/responsive/">responsive</a>, <a href="<?=$basepath?>/services/identity/">identity</a></p>
             </section>
 
             <section class="wf" style="height: 80em;">
@@ -31,6 +32,8 @@
 
             <section class="wf" style="height: 20em;">
                 <h2>Credits</h2>
+                <p><strong>Client:</strong> Global Moxie</p>
+                <p><strong>SuperFriends:</strong> Brad Frost, Jennifer Brook, Jonathan Stark, Pon Kattera, Greg Sarault. <a href="<?=$basepath?>/about/">More about the SuperFriend model</a></p>
             </section>
 
             <nav class="pagination clearfix">
