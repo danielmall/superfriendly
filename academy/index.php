@@ -39,8 +39,17 @@
 
             </section>
 
-            <section class="wf" style="height: 20em;">
-                <h2><a href="#">Apply</a></h2>
+            <section class="wf clearfix">
+                <h2>Apply</h2>
+
+                <div class="col50 wf" style="height: 20em;">
+                    <h2>I&rsquo;m interested in design or development but have little to no experience with it</h2>
+                </div>
+
+                <div class="col50 wf" style="height: 20em;">
+                    <h2>I&rsquo;m in charge of resourcing at a company and we can&rsquo;t find good people</h2>
+                </div>
+
             </section>
 
             

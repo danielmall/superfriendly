@@ -28,7 +28,7 @@
                     <li><?php createNavItem('/services/web/', 'Web'); ?></li>
                     <li><?php createNavItem('/services/mobile/', 'Mobile'); ?></li>
                     <li><?php createNavItem('/services/responsive/', 'Responsive'); ?></li>
-                    <li><?php createNavItem('/services/branding/', 'Branding'); ?></li>
+                    <li><?php createNavItem('/services/identity/', 'Identity'); ?></li>
                 </ul>
             </li>
     		<li><?php createNavItem('/about/', 'About'); ?></li>
