@@ -52,6 +52,12 @@
 
             </section>
 
+            <nav class="pagination clearfix">
+                <ul>
+                    <li><a href="<?=$basepath?>/about/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/rescue-ops/">Next</a></li>
+                </ul>
+            </nav><!-- .pagination -->
             
 
         </div><!-- .main -->

@@ -36,7 +36,11 @@
                 <p>Twitter, Facebook, Behance</p>
             </section>
 
-            
+            <nav class="pagination clearfix">
+                <ul>
+                    <li><a href="<?=$basepath?>/rescue-ops/">Prev</a></li>
+                </ul>
+            </nav><!-- .pagination -->
 
         </div><!-- .main -->
 

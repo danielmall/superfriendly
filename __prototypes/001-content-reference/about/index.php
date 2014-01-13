@@ -62,6 +62,13 @@
                 </ul>
             </section>
 
+            <nav class="pagination clearfix">
+                <ul>
+                    <li><a href="<?=$basepath?>/services/identity/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/academy/">Next</a></li>
+                </ul>
+            </nav><!-- .pagination -->
+
         </div><!-- .main -->
 
     </div><!-- .clearfix -->

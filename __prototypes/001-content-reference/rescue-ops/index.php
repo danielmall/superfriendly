@@ -30,7 +30,12 @@
                 <h2><a href="#">Apply</a></h2>
             </section>
 
-            
+            <nav class="pagination clearfix">
+                <ul>
+                    <li><a href="<?=$basepath?>/academy/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/contact/">Next</a></li>
+                </ul>
+            </nav><!-- .pagination -->
 
         </div><!-- .main -->
 
