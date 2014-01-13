@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>About SuperFriendly</title>
+    <title>Contact SuperFriendly</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,44 +19,19 @@
 
         <div class="main">
 
-            <h1>About SuperFriendly</h1>
+            <h1>Contact SuperFriendly</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>How we work</h2>
+                <h2>What to expect when contacting SuperFriendly</h2>
+                <p>Who will answer the email?</p>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>The SuperFriend Model</h2>
+                <h2>Contact form</h2>
+                <p>Different options for saying hello and job inquiries</p>
             </section>
 
-            <section class="wf">
-                <h2>Partners</h2>
-                <ul>
-                    <li>Kevin M. Hoffman</li>
-                    <li>Kyle Steed</li>
-                    <li>Philip Zaengle</li>
-                    <li>Ivan Askwith</li>
-                    <li>Brad Frost</li>
-                    <li>Jennifer Brook</li>
-                    <li>Jonathan Stark</li>
-                    <li>Robert Gorell</li>
-                    <li>Damian Atkinson</li>
-                    <li>Zach McNair</li>
-                    <li>Robert Jolly</li>
-                    <li>Dan Rubin</li>
-                    <li>Tim Kadlec</li>
-                    <li>Phil Sierzega</li>
-                    <li>Charlie Whitney</li>
-                    <li>Hilary Fenton</li>
-                    <li>Jenn Lukas</li>
-                    <li>Lifeislottery</li>
-                    <li>Bold</li>
-                    <li>Monastery</li>
-                    <li>Global Moxie</li>
-                    <li>Arbitrary</li>
-                    <li>10up</li>
-                </ul>
-            </section>
+            
 
         </div><!-- .main -->
 
