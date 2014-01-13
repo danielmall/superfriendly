@@ -26,8 +26,8 @@
                 <?php createNavItem($basepath . '/services/', 'Services'); ?>
                 <ul class="no-bullets nested1">
                     <li><?php createNavItem($basepath . '/services/web/', 'Web'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/mobile/', 'Mobile'); ?></li>
                     <li><?php createNavItem($basepath . '/services/responsive/', 'Responsive'); ?></li>
+                    <li><?php createNavItem($basepath . '/services/mobile/', 'Mobile'); ?></li>
                     <li><?php createNavItem($basepath . '/services/identity/', 'Identity'); ?></li>
                 </ul>
             </li>
