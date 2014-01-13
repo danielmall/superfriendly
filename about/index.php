@@ -26,6 +26,10 @@
             </section>
 
             <section class="wf" style="height: 20em;">
+                <h2>The core team</h2>
+            </section>
+
+            <section class="wf" style="height: 20em;">
                 <h2>The SuperFriend Model</h2>
             </section>
 
