@@ -31,6 +31,11 @@
                 <p>Different options for saying hello and job inquiries</p>
             </section>
 
+            <section class="wf" style="height: 20em;">
+                <h2>SuperFriendly elsewhere</h2>
+                <p>Twitter, Facebook, Behance</p>
+            </section>
+
             
 
         </div><!-- .main -->

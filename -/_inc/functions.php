@@ -12,7 +12,7 @@ function createNavItem($url, $label){
     if(strstr($_SERVER['REQUEST_URI'], $url)) {
         echo '<mark>' . $label . '</mark>';
     }else{
-        echo '<li><a href="' . $url . '">' . $label . '</a></li>';
+        echo '<a href="' . $url . '">' . $label . '</a>';
     }
 }
 

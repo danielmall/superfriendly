@@ -2,16 +2,23 @@
 
 <nav class="main-nav">
     	<ul class="no-bullets">
-    		<li><a href="/">Home</a></li>
+    		<li>
+                <?php if($_SERVER['REQUEST_URI'] == '/') { ?>  
+                <mark>Home</mark>
+                <?php } else { ?>
+                <a href="/">Home</a>
+                <?php } ?>
+            </li>
     		<li>
                 <?php createNavItem('/work/', 'Work'); ?>
                 <ul class="no-bullets nested1">
                     <li><?php createNavItem('/work/techcrunch/', 'TechCrunch'); ?></li>
-                    <li><?php createNavItem('/work/ew/', 'Entertainment Weekly'); ?></li>
-                    <li><?php createNavItem('/work/mastercard/', 'MasterCard'); ?></li>
-                    <li><?php createNavItem('/work/no-chains/', 'No Chains'); ?></li>
                     <li><?php createNavItem('/work/grantland', 'Grantland'); ?></li>
-                    <li><?php createNavItem('/work/rif', 'Reading Is Fundamental'); ?></li>
+                    <li><?php createNavItem('/work/entertainment-weekly/', 'Entertainment Weekly'); ?></li>
+                    <li><?php createNavItem('/work/reading-is-fundamental/', 'Reading Is Fundamental'); ?></li>
+                    <li><?php createNavItem('/work/mastercard/', 'MasterCard Cashless Pioneers'); ?></li>
+                    <li><?php createNavItem('/work/moodpik/', 'MoodPik'); ?></li>
+                    <li><?php createNavItem('/work/no-chains/', 'No Chains'); ?></li>
                     <li><?php createNavItem('/work/1800contacts', '1800Contacts'); ?></li>
                 </ul>
             </li>

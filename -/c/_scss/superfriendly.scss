@@ -121,8 +121,8 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
     Wireframes
 -------------------------------------------*/
-.main-nav mark { background: yellow; }
-.wf { background: #eee; background: rgba(0, 0, 0, 0.1); padding: 2em; margin: 0 1% 1em; }
+.main-nav mark { background: yellow; font-weight: bold; }
+.wf, .pagination { background: #eee; background: rgba(0, 0, 0, 0.1); padding: 2em; margin: 0 1% 1em; }
 
 
 /*-------------------------------------------    
@@ -140,3 +140,11 @@ sub, sup { line-height: 0; }
 
 .main { width: 70%; float: left; padding: 3em 0 0; }
 .main-nav { float: right; width: 25%; padding: 4em 0 0 5%; }
+
+.pagination { background: #fafafa;
+	ul { float: right; }
+		li { 
+			display: inline; 
+			&:first-child { margin-right: 1em; }
+		}
+}
