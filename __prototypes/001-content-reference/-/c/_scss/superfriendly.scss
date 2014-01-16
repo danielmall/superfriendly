@@ -121,7 +121,7 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
     Wireframes
 -------------------------------------------*/
-.main-nav mark { background: yellow; font-weight: bold; }
+.main-nav mark, .current { background: yellow; font-weight: bold; }
 .wf, .pagination { background: #eee; background: rgba(0, 0, 0, 0.1); padding: 2em; margin: 0 1% 1em; }
 
 
