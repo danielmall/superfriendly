@@ -33,7 +33,13 @@
             </li>
     		<li><?php createNavItem($basepath . '/about/', 'About'); ?></li>
     		<li><?php createNavItem($basepath . '/academy/', 'SuperFriendly Academy'); ?></li>
-    		<li><?php createNavItem($basepath . '/rescue-ops/', 'SuperFriendly Rescue Ops'); ?></li>
+    		<li>
+                <?php createNavItem($basepath . '/help/', 'SuperFriendly Help'); ?>
+                <ul class="no-bullets nested1">
+                    <li><?php createNavItem($basepath . '/help/rescue-ops/', 'Rescue Ops'); ?></li>
+                    <li><?php createNavItem($basepath . '/help/office-hours/', 'Office Hours'); ?></li>
+                </ul>
+            </li>
     		<li><?php createNavItem($basepath . '/contact/', 'Contact'); ?></li>
     	</ul>
     </nav><!-- .main-nav -->
