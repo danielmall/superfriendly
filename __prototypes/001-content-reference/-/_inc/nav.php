@@ -23,12 +23,17 @@
                 </ul>
             </li>
     		<li>
-                <?php createNavItem($basepath . '/services/', 'Services'); ?>
+                <?php createNavItem($basepath . '/expertise/', 'Expertise'); ?>
                 <ul class="no-bullets nested1">
-                    <li><?php createNavItem($basepath . '/services/web/', 'Web'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/responsive/', 'Responsive'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/mobile/', 'Mobile'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/identity/', 'Identity'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/art-direction/', 'Art Direction'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/design/', 'Design'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/information-architecture/', 'Information Architecture'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/front-end-development/', 'Front-End Development'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/back-end-development/', 'Back-End Development'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/project-management/', 'Project Management'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/responsive/', 'Responsive Design'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/mobile/', 'Mobile'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/identity/', 'Identity'); ?></li>
                 </ul>
             </li>
     		<li><?php createNavItem($basepath . '/about/', 'About'); ?></li>
