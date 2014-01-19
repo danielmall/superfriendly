@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Mobile&rdquo;</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Mobile Strategy&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,18 +19,18 @@
 
         <div class="main">
 
-            <h1>Mobile</h1>
+            <h1>Mobile Strategy</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>Why Mobile is an important service we offer</h2>
+                <h2>Why Mobile Strategy is an important service we offer</h2>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>Statistics about the importance of Mobile</h2>
+                <h2>Statistics about the importance of Mobile Strategy</h2>
             </section>
 
             <section class="wf">
-                <h2>Examples of our Mobile work</h2>
+                <h2>Examples of our Mobile Strategy work</h2>
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
@@ -48,6 +48,10 @@
                     </div>
                 </div>
 
+            </section>
+
+            <section class="wf">
+                <p>Do you have a project that needs expert Mobile Strategy? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">

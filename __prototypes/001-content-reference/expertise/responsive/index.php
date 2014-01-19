@@ -50,6 +50,10 @@
 
             </section>
 
+            <section class="wf">
+                <p>Do you have a project that needs expert Responsive Design? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
+            </section>
+
             <nav class="pagination clearfix">
                 <ul>
                     <li><a href="<?=$basepath?>/expertise/graphic-design/">Prev</a></li>

@@ -33,7 +33,7 @@
                     <li><?php createNavItem($basepath . '/expertise/back-end-development/', 'Back-End Development'); ?></li>
                     <li><?php createNavItem($basepath . '/expertise/cms-integration/', 'CMS Integration'); ?></li>
                     <li><?php createNavItem($basepath . '/expertise/project-management/', 'Project Management'); ?></li>
-                    <li><?php createNavItem($basepath . '/expertise/mobile/', 'Mobile'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/mobile-strategy/', 'Mobile Strategy'); ?></li>
                     <li><?php createNavItem($basepath . '/expertise/branding/', 'Branding'); ?></li>
                 </ul>
             </li>
