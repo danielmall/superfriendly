@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Mobile, a SuperFriendly Service</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Mobile&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -34,7 +34,7 @@
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>EW</h2>
+                        <h2>TechCrunch</h2>
                     </div>
 
                     <div class="wf col50" style="height: 10em;">
@@ -44,11 +44,7 @@
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>No Chains</h2>
-                    </div>
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>MoodPik</h2>
+                        <h2>EW</h2>
                     </div>
                 </div>
 
@@ -56,8 +52,8 @@
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/services/responsive/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/services/identity/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/project-management/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/branding/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 

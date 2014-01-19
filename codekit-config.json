@@ -2,60 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/cssReference.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/cssReference.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/jsReference.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/jsReference.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/work\/grantland\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/grantland\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/help\/rescue-ops\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/help\/rescue-ops\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/__prototypes\/001-content-reference\/help\/office-hours\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -65,21 +11,35 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php" : {
+    "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min-ck.js",
+      "fileType" : 64
     },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/functions.php" : {
+    "\/__prototypes\/001-content-reference\/-\/c\/_scss\/variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/c\/_scss\/variables.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/c\/css\/variables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/branding\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/functions.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/branding\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -92,39 +52,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/expertise\/responsive\/index.php" : {
+    "\/__prototypes\/001-content-reference\/work\/grantland\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/responsive\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/work\/techcrunch\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/techcrunch\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/grantland\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -137,6 +70,42 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/__prototypes\/001-content-reference\/expertise\/information-architecture\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/information-architecture\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/cssReference.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/cssReference.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/close.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/close.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/__prototypes\/001-content-reference\/about\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -146,12 +115,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/meta.php" : {
+    "\/__prototypes\/001-content-reference\/academy\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/meta.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/academy\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -164,30 +133,48 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/work\/mastercard\/index.php" : {
+    "\/__prototypes\/001-content-reference\/help\/rescue-ops\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/mastercard\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/help\/rescue-ops\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/expertise\/index.php" : {
+    "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/contact\/index.php" : {
+    "\/__prototypes\/001-content-reference\/expertise\/project-management\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/contact\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/project-management\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/graphic-design\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/graphic-design\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/art-direction\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/art-direction\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -203,33 +190,30 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/__prototypes\/001-content-reference\/-\/c\/_scss\/variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/c\/_scss\/variables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/c\/css\/variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/__prototypes\/001-content-reference\/academy\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/academy\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/__prototypes\/001-content-reference\/work\/moodpik\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/moodpik\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/back-end-development\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/back-end-development\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/jsReference.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/jsReference.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -242,6 +226,69 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/meta.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/meta.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/responsive\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/responsive\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/work\/techcrunch\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/techcrunch\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/front-end-development\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/front-end-development\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/expertise\/mobile\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/mobile\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/__prototypes\/001-content-reference\/-\/_inc\/doctype.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -251,32 +298,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/close.php" : {
+    "\/__prototypes\/001-content-reference\/expertise\/cms-integration\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/close.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/cms-integration\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min.js" : {
+    "\/__prototypes\/001-content-reference\/work\/mastercard\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/j\/libs\/jquery-1.9.1.min-ck.js",
-      "fileType" : 64
-    },
-    "\/__prototypes\/001-content-reference\/expertise\/mobile\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/mobile\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/mastercard\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -289,12 +325,39 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/expertise\/identity\/index.php" : {
+    "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/expertise\/identity\/index.php",
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/contact\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/contact\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     }

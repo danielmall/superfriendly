@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Identity, a SuperFriendly Service</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Art Direction&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,48 +19,41 @@
 
         <div class="main">
 
-            <h1>Identity</h1>
+            <h1>Art Direction</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>What Identity is</h2>
+                <h2>Why Art Direction is an important service we offer</h2>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>Statistics about the importance of Identity</h2>
+                <h2>Statistics about the importance of Art Direction</h2>
             </section>
 
             <section class="wf">
-                <h2>Examples of our Identity work</h2>
+                <h2>Examples of our Art Direction work</h2>
 
                 <div class="clearfix">
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>1800contacts</h2>
-                    </div>
-
                     <div class="wf col50" style="height: 10em;">
                         <h2>TechCrunch</h2>
                     </div>
 
+                    <div class="wf col50" style="height: 10em;">
+                        <h2>Grantland</h2>
+                    </div>
                 </div>
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>MoodPik</h2>
-                    </div>
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>No Chains</h2>
+                        <h2>EW</h2>
                     </div>
                 </div>
-
 
             </section>
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/services/mobile/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/about/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/graphic-design/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 
