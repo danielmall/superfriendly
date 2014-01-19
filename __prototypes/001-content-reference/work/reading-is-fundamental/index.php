@@ -23,7 +23,18 @@
 
             <section class="wf" style="height: 30em;">
                 <h2>Overview and brief</h2>
-                <p><strong>Services</strong>: <a href="<?=$basepath?>/services/web/">web</a>, <a href="<?=$basepath?>/services/responsive/">responsive</a></p>
+
+                <p>
+                    <strong>What we did:</strong> 
+                    <a href="<?=$basepath?>/expertise/art-direction/">Art Direction</a>, 
+                    <a href="<?=$basepath?>/expertise/graphic-design/">Graphic Design</a>, 
+                    <a href="<?=$basepath?>/expertise/responsive/">Responsive-Design</a>, 
+                    <a href="<?=$basepath?>/expertise/information-architecture/">Information Architecture</a>, 
+                    <a href="<?=$basepath?>/expertise/front-end-development/">Front-End Development</a>, 
+                    <a href="<?=$basepath?>/expertise/cms-integration/">CMS Integration</a>, 
+                    <a href="<?=$basepath?>/expertise/project-management/">Project Management</a>
+                </p>
+
             </section>
 
             <section class="wf" style="height: 80em;">
@@ -34,6 +45,10 @@
                 <h2>Credits</h2>
                 <p><strong>Client:</strong> Reading Is Fundamental</p>
                 <p><strong>SuperFriends:</strong> Kevin M. Hoffman, Joshua Luciano, Bold, Mother. <a href="<?=$basepath?>/about/">More about the SuperFriend model</a></p>
+            </section>
+
+            <section class="wf">
+                <p>Do you have a project similar to Reading Is Fundamental that you need help with? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">

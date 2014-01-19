@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Identity, a SuperFriendly Service</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Graphic Design&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,48 +19,45 @@
 
         <div class="main">
 
-            <h1>Identity</h1>
+            <h1>Graphic Design</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>What Identity is</h2>
+                <h2>Why Graphic Design is an important service we offer</h2>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>Statistics about the importance of Identity</h2>
+                <h2>Statistics about the importance of Graphic Design</h2>
             </section>
 
             <section class="wf">
-                <h2>Examples of our Identity work</h2>
+                <h2>Examples of our Graphic Design work</h2>
 
                 <div class="clearfix">
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>1800contacts</h2>
-                    </div>
-
                     <div class="wf col50" style="height: 10em;">
                         <h2>TechCrunch</h2>
                     </div>
 
+                    <div class="wf col50" style="height: 10em;">
+                        <h2>Grantland</h2>
+                    </div>
                 </div>
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>MoodPik</h2>
-                    </div>
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>No Chains</h2>
+                        <h2>EW</h2>
                     </div>
                 </div>
 
+            </section>
 
+            <section class="wf">
+                <p>Do you have a project that needs expert Graphic Design? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/services/mobile/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/about/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/art-direction/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/responsive/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 

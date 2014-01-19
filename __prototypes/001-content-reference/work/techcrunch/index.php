@@ -23,7 +23,7 @@
 
             <section class="wf" style="height: 30em;">
                 <h2>Overview and brief</h2>
-                <p><strong>Services</strong>: <a href="<?=$basepath?>/services/web/">web</a>, <a href="<?=$basepath?>/services/responsive/">responsive</a>, <a href="<?=$basepath?>/services/identity/">identity</a></p>
+                <p><strong>What we did:</strong> <a href="<?=$basepath?>/expertise/art-direction/">Art Direction</a>, <a href="<?=$basepath?>/expertise/graphic-design/">Graphic Design</a>, <a href="<?=$basepath?>/expertise/responsive/">Responsive Design</a>, <a href="<?=$basepath?>/expertise/branding/">Branding</a></p>
             </section>
 
             <section class="wf" style="height: 80em;">
@@ -32,8 +32,13 @@
 
             <section class="wf" style="height: 20em;">
                 <h2>Credits</h2>
-                <p><strong>Client:</strong> Global Moxie</p>
+                <p><strong>Client:</strong> AOL, Inc.</p>
+                <p><strong>Agency:</strong> Global Moxie</p>
                 <p><strong>SuperFriends:</strong> Brad Frost, Jennifer Brook, Jonathan Stark, Pon Kattera, Greg Sarault. <a href="<?=$basepath?>/about/">More about the SuperFriend model</a></p>
+            </section>
+
+            <section class="wf">
+                <p>Do you have a project similar to TechCrunch that you need help with? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">

@@ -23,17 +23,29 @@
                 </ul>
             </li>
     		<li>
-                <?php createNavItem($basepath . '/services/', 'Services'); ?>
+                <?php createNavItem($basepath . '/expertise/', 'Expertise'); ?>
                 <ul class="no-bullets nested1">
-                    <li><?php createNavItem($basepath . '/services/web/', 'Web'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/responsive/', 'Responsive'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/mobile/', 'Mobile'); ?></li>
-                    <li><?php createNavItem($basepath . '/services/identity/', 'Identity'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/art-direction/', 'Art Direction'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/graphic-design/', 'Graphic Design'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/responsive/', 'Responsive Design'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/information-architecture/', 'Information Architecture'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/front-end-development/', 'Front-End Development'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/back-end-development/', 'Back-End Development'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/cms-integration/', 'CMS Integration'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/project-management/', 'Project Management'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/mobile-strategy/', 'Mobile Strategy'); ?></li>
+                    <li><?php createNavItem($basepath . '/expertise/branding/', 'Branding'); ?></li>
                 </ul>
             </li>
     		<li><?php createNavItem($basepath . '/about/', 'About'); ?></li>
     		<li><?php createNavItem($basepath . '/academy/', 'SuperFriendly Academy'); ?></li>
-    		<li><?php createNavItem($basepath . '/rescue-ops/', 'SuperFriendly Rescue Ops'); ?></li>
+    		<li>
+                <?php createNavItem($basepath . '/help/', 'SuperFriendly Help'); ?>
+                <ul class="no-bullets nested1">
+                    <li><?php createNavItem($basepath . '/help/rescue-ops/', 'Rescue Ops'); ?></li>
+                    <li><?php createNavItem($basepath . '/help/office-hours/', 'Office Hours'); ?></li>
+                </ul>
+            </li>
     		<li><?php createNavItem($basepath . '/contact/', 'Contact'); ?></li>
     	</ul>
     </nav><!-- .main-nav -->

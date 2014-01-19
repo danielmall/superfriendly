@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly Academy</title>
+    <title>SuperFriendly Help</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,43 +19,28 @@
 
         <div class="main">
 
-            <h1>SuperFriendly Academy</h1>
+            <h1>SuperFriendly Help</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>About the Academy</h2>
+                <h2>About Help</h2>
             </section>
 
             <section class="wf clearfix">
 
-                <h2>Journeymen</h2>
-
                 <div class="col50 wf" style="height: 20em;">
-                    <h2>Josh</h2>
+                    <h2>Rescue Ops</h2>
                 </div>
 
                 <div class="col50 wf" style="height: 20em;">
-                    <h2>Greg</h2>
-                </div>
-
-            </section>
-
-            <section class="wf clearfix">
-                <h2>Apply</h2>
-
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>I&rsquo;m interested in design or development but have little to no experience with it</h2>
-                </div>
-
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>I&rsquo;m in charge of resourcing at a company and we can&rsquo;t find good people</h2>
+                    <h2>Office Hours</h2>
                 </div>
 
             </section>
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/about/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/help/">Next</a></li>
+                    <li><a href="<?=$basepath?>/academy/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/help/rescue-ops/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
             

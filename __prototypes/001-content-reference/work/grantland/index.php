@@ -23,7 +23,14 @@
 
             <section class="wf" style="height: 30em;">
                 <h2>Overview and brief</h2>
-                <p><strong>Services</strong>: <a href="<?=$basepath?>/services/web/">web</a>, <a href="<?=$basepath?>/services/responsive/">responsive</a></p>
+                <p>
+                    <strong>What we did:</strong> 
+                    <a href="<?=$basepath?>/expertise/art-direction/">Art Direction</a>, 
+                    <a href="<?=$basepath?>/expertise/graphic-design/">Graphic Design</a>, 
+                    <a href="<?=$basepath?>/expertise/information-architecture/">Information Architecture</a>, 
+                    <a href="<?=$basepath?>/expertise/front-end-development/">Front-End Development</a>, 
+                    <a href="<?=$basepath?>/expertise/project-management/">Project Management</a>
+                </p>
             </section>
 
             <section class="wf" style="height: 80em;">
@@ -33,7 +40,11 @@
             <section class="wf" style="height: 20em;">
                 <h2>Credits</h2>
                 <p><strong>Client:</strong> ESPN</p>
-                <p><strong>SuperFriends:</strong> Dan Rubin, Robert Jolly, Kevin M. Hoffman, Tim Kadlec. <a href="<?=$basepath?>/about/">More about the SuperFriend model</a></p>
+                <p><strong>SuperFriends:</strong> Dan Rubin (art direction &amp; design), Robert Jolly (project management), Kevin M. Hoffman (information architecture), Tim Kadlec (front-end development), 10up (back-end development). <a href="<?=$basepath?>/about/">More about the SuperFriend model</a></p>
+            </section>
+
+            <section class="wf">
+                <p>Do you have a project similar to Grantland that you need help with? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">

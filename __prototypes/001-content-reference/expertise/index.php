@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly Work, a sampling of collaborations with our favorite clients</title>
+    <title>SuperFriendly Expertise</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,71 +19,82 @@
 
         <div class="main">
 
-            <h1>Work</h1>
+            <h1>Expertise</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>Overview of work</h2>
+                <h2>Overview of what we&rsquo;re good at</h2>
             </section>
 
             <section class="wf">
 
                 <div class="clearfix">
                     <div class="wf col33">
-                        <h2><a href="techcrunch/">TechCrunch</a></h2>
-                        <p>One-sentence blurb for TechCrunch</p>
+                        <h2><a href="art-direction/">Art Direction</a></h2>
+                        <p>One-sentence blurb for Art Direction</p>
                     </div>
 
                     <div class="wf col33">
-                        <h2><a href="grantland/">Grantland</a></h2>
-                        <p>One-sentence blurb for Grantland</p>
+                        <h2><a href="graphic-design/">Graphic Design</a></h2>
+                        <p>One-sentence blurb for Graphic Design</p>
                     </div>
 
                     <div class="wf col33">
-                        <h2><a href="entertainment-weekly/">Entertainment Weekly</a></h2>
-                        <p>One-sentence blurb for EW</p>
+                        <h2><a href="responsive-design/">Responsive Design</a></h2>
+                        <p>One-sentence blurb for Responsive Design</p>
                     </div>
                 </div>
 
                 <div class="clearfix">
                     <div class="wf col33">
-                        <h2><a href="reading-is-fundamental/">Reading Is Fundamental</a></h2>
-                        <p>One-sentence blurb for RIF</p>
+                        <h2><a href="information-architecture/">Information Architecture</a></h2>
+                        <p>One-sentence blurb for Art Direction</p>
                     </div>
 
                     <div class="wf col33">
-                        <h2><a href="mastercard/">MasterCard</a></h2>
-                        <p>One-sentence blurb for MasterCard</p>
+                        <h2><a href="front-end-development/">Front-End Development</a></h2>
+                        <p>One-sentence blurb for Front-End</p>
                     </div>
 
                     <div class="wf col33">
-                        <h2><a href="moodpik/">MoodPik</a></h2>
-                        <p>One-sentence blurb for MoodPik</p>
+                        <h2><a href="back-end-development/">Back-End Development</a></h2>
+                        <p>One-sentence blurb for Back-End</p>
                     </div>
+
                 </div>
 
                 <div class="clearfix">
                     <div class="wf col33">
-                        <h2><a href="no-chains/">No Chains</a></h2>
-                        <p>One-sentence blurb for No Chains</p>
+                        <h2><a href="cms-integration/">CMS Integration</a></h2>
+                        <p>One-sentence blurb for CMS Integration</p>
                     </div>
 
                     <div class="wf col33">
-                        <h2><a href="1800contacts/">1800contacts</a></h2>
-                        <p>One-sentence blurb for 1800contacts</p>
+                        <h2><a href="project-management/">Project Management</a></h2>
+                        <p>One-sentence blurb for PM</p>
+                    </div>
+
+                    <div class="wf col33">
+                        <h2><a href="mobile/">Mobile</a></h2>
+                        <p>One-sentence blurb for Mobile</p>
                     </div>
 
                 </div>
 
-            </section>
+                <div class="clearfix">
 
-            <section class="wf" style="height: 20em;">
-                <h2>Client Logos?</h2>
+                    <div class="wf col33">
+                        <h2><a href="branding/">Branding</a></h2>
+                        <p>One-sentence blurb for Branding</p>
+                    </div>
+
+                </div>
+
             </section>
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/work/techcrunch/">Next</a></li>
+                    <li><a href="<?=$basepath?>/work/1800contacts/">Prev</a></li>
+                    <li><a href="#">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 

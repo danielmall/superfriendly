@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly Academy</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;CMS Integration&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,46 +19,47 @@
 
         <div class="main">
 
-            <h1>SuperFriendly Academy</h1>
+            <h1>CMS Integration</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>About the Academy</h2>
+                <h2>Why CMS Integration is an important service we offer</h2>
             </section>
 
-            <section class="wf clearfix">
+            <section class="wf" style="height: 20em;">
+                <h2>Statistics about the importance of CMS Integration</h2>
+            </section>
 
-                <h2>Journeymen</h2>
+            <section class="wf">
+                <h2>Examples of our CMS Integration work</h2>
 
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>Josh</h2>
+                <div class="clearfix">
+                    <div class="wf col50" style="height: 10em;">
+                        <h2>TechCrunch</h2>
+                    </div>
+
+                    <div class="wf col50" style="height: 10em;">
+                        <h2>Grantland</h2>
+                    </div>
                 </div>
 
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>Greg</h2>
+                <div class="clearfix">
+                    <div class="wf col50" style="height: 10em;">
+                        <h2>EW</h2>
+                    </div>
                 </div>
 
             </section>
 
-            <section class="wf clearfix">
-                <h2>Apply</h2>
-
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>I&rsquo;m interested in design or development but have little to no experience with it</h2>
-                </div>
-
-                <div class="col50 wf" style="height: 20em;">
-                    <h2>I&rsquo;m in charge of resourcing at a company and we can&rsquo;t find good people</h2>
-                </div>
-
+            <section class="wf">
+                <p>Do you have a project that needs expert CMS Integration? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
             </section>
 
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/about/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/help/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/back-end-development/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/project-management/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
-            
 
         </div><!-- .main -->
 

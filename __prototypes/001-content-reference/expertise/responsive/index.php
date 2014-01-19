@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Mobile, a SuperFriendly Service</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Responsive Design&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,22 +19,22 @@
 
         <div class="main">
 
-            <h1>Mobile</h1>
+            <h1>Responsive Design</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>Why Mobile is an important service we offer</h2>
+                <h2>Why Responsive Design is an important service we offer</h2>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>Statistics about the importance of Mobile</h2>
+                <h2>Statistics about the importance of Responsive Design</h2>
             </section>
 
             <section class="wf">
-                <h2>Examples of our Mobile work</h2>
+                <h2>Examples of our Responsive Design work</h2>
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>EW</h2>
+                        <h2>TechCrunch</h2>
                     </div>
 
                     <div class="wf col50" style="height: 10em;">
@@ -44,20 +44,20 @@
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>No Chains</h2>
-                    </div>
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>MoodPik</h2>
+                        <h2>EW</h2>
                     </div>
                 </div>
 
             </section>
 
+            <section class="wf">
+                <p>Do you have a project that needs expert Responsive Design? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
+            </section>
+
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/services/responsive/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/services/identity/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/graphic-design/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/information-architecture/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 

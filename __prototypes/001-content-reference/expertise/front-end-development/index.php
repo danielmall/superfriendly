@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/__prototypes/001-content-reference/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Web, a SuperFriendly Service</title>
+    <title>SuperFriendly&rsquo;s Expertise in &ldquo;Front-End Development&rdquo;</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -19,18 +19,18 @@
 
         <div class="main">
 
-            <h1>Web</h1>
+            <h1>Front-End Development</h1>
 
             <section class="wf" style="height: 20em;">
-                <h2>Why Web is an important service we offer</h2>
+                <h2>Why Front-End Development is an important service we offer</h2>
             </section>
 
             <section class="wf" style="height: 20em;">
-                <h2>Statistics about the importance of the web</h2>
+                <h2>Statistics about the importance of Front-End Development</h2>
             </section>
 
             <section class="wf">
-                <h2>Examples of our web work</h2>
+                <h2>Examples of our Front-End Development work</h2>
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
@@ -44,20 +44,20 @@
 
                 <div class="clearfix">
                     <div class="wf col50" style="height: 10em;">
-                        <h2>RIF</h2>
-                    </div>
-
-                    <div class="wf col50" style="height: 10em;">
-                        <h2>MasterCard</h2>
+                        <h2>EW</h2>
                     </div>
                 </div>
 
             </section>
 
+            <section class="wf">
+                <p>Do you have a project that needs expert Front-End Development? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
+            </section>
+
             <nav class="pagination clearfix">
                 <ul>
-                    <li><a href="<?=$basepath?>/services/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/services/responsive/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/information-architecture/">Prev</a></li>
+                    <li><a href="<?=$basepath?>/expertise/back-end-development/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 

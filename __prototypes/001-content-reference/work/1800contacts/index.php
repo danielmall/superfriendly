@@ -23,6 +23,12 @@
 
             <section class="wf" style="height: 30em;">
                 <h2>Overview and brief</h2>
+                <p>
+                    <strong>What we did:</strong> 
+                    <a href="<?=$basepath?>/expertise/art-direction/">Art Direction</a>, 
+                    <a href="<?=$basepath?>/expertise/graphic-design/">Graphic Design</a>,  
+                    <a href="<?=$basepath?>/expertise/branding/">Branding</a>
+                </p>
             </section>
 
             <section class="wf" style="height: 80em;">
@@ -33,10 +39,14 @@
                 <h2>Credits</h2>
             </section>
 
+            <section class="wf">
+                <p>Do you have a project similar to 1800contacts that you need help with? We&rsquo;d love to talk to you about it. <a href="<?=$basepath?>/contact/">Get in touch</a>.</p>
+            </section>
+
             <nav class="pagination clearfix">
                 <ul>
                     <li><a href="<?=$basepath?>/work/no-chains/">Prev</a></li>
-                    <li><a href="<?=$basepath?>/services/">Next</a></li>
+                    <li><a href="<?=$basepath?>/expertise/">Next</a></li>
                 </ul>
             </nav><!-- .pagination -->
 
