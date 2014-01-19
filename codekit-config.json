@@ -2,15 +2,21 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-<<<<<<< HEAD
-
-=======
     "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/no-chains\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -41,39 +47,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/__prototypes\/001-content-reference\/services\/responsive\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/services\/responsive\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/nav.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/work\/entertainment-weekly\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/entertainment-weekly\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/__prototypes\/001-content-reference\/rescue-ops\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/rescue-ops\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -86,6 +74,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/__prototypes\/001-content-reference\/work\/entertainment-weekly\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/entertainment-weekly\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/services\/mobile\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/services\/mobile\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/__prototypes\/001-content-reference\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -95,12 +101,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/__prototypes\/001-content-reference\/rescue-ops\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/rescue-ops\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/__prototypes\/001-content-reference\/services\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/services\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/work\/reading-is-fundamental\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -128,6 +152,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/about\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/services\/identity\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/services\/identity\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -160,6 +193,15 @@
       "outputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/c\/superfriendly.min.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/__prototypes\/001-content-reference\/services\/web\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/services\/web\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/__prototypes\/001-content-reference\/contact\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -209,21 +251,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/__prototypes\/001-content-reference\/-\/_inc\/close.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/close.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/__prototypes\/001-content-reference\/-\/_inc\/doctype.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/doctype.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/__prototypes\/001-content-reference\/-\/_inc\/close.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/__prototypes\/001-content-reference\/-\/_inc\/close.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -247,7 +289,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     }
->>>>>>> outline
   },
   "manualImportLinks" : [
 
