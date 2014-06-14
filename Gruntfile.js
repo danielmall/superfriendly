@@ -7,18 +7,18 @@ module.exports = function(grunt) {
         concat: {   
             dist: {
                 src: [
-                    '__prototypes/002-nav-control/-/j/libs/*.js',
-                    '__prototypes/002-nav-control/-/j/_source/*.js' // All JS in the _source folder                  
+                    '-/j/libs/*.js',
+                    '-/j/_source/*.js' // All JS in the _source folder                  
                     //'js/global.js'  // This specific file
                 ],
-                dest: '__prototypes/002-nav-control/-/j/superfriendly.concat.js'
+                dest: '-/j/superfriendly.concat.js'
             }
         },
 
         uglify: {
             build: {
-                src: '__prototypes/002-nav-control/-/j/superfriendly.concat.js',
-                dest: '__prototypes/002-nav-control/-/j/superfriendly.min.js'
+                src:    '-/j/superfriendly.concat.js',
+                dest:   '-/j/superfriendly.min.js'
             }
         },
 
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {                         // Dictionary of files
-                    '__prototypes/002-nav-control/-/c/superfriendly.min.css': '__prototypes/002-nav-control/-/c/_scss/superfriendly.scss'       // 'destination': 'source'
+                    '-/c/superfriendly.min.css': '-/c/_scss/superfriendly.scss'       // 'destination': 'source'
                     /*'www/-/c/littleboxchallenge-enhanced.css': 'www/-/c/_scss/enhanced.scss'       // 'destination': 'source'*/
                 }
             }
@@ -36,11 +36,11 @@ module.exports = function(grunt) {
 
         watch: {
             sass: { 
-                files: ['__prototypes/002-nav-control/-/c/_scss/*.scss'],
+                files: ['-/c/_scss/*.scss'],
                 tasks: ['sass']
             },
             scripts: {
-                files: ['__prototypes/002-nav-control/-/j/_source/*.js'],
+                files: ['-/j/_source/*.js', '-/j/libs/*.js'],
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
