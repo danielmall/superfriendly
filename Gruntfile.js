@@ -4,15 +4,23 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        /*concat: {   
+        concat: {   
             dist: {
                 src: [
-                    'js/libs/*.js', // All JS in the libs folder
-                    'js/global.js'  // This specific file
+                    '__prototypes/002-nav-control/-/j/libs/*.js',
+                    '__prototypes/002-nav-control/-/j/_source/*.js' // All JS in the _source folder                  
+                    //'js/global.js'  // This specific file
                 ],
-                dest: 'js/build/production.js',
+                dest: '__prototypes/002-nav-control/-/j/superfriendly.concat.js'
             }
-        },*/
+        },
+
+        uglify: {
+            build: {
+                src: '__prototypes/002-nav-control/-/j/superfriendly.concat.js',
+                dest: '__prototypes/002-nav-control/-/j/superfriendly.min.js'
+            }
+        },
 
         sass: {                              // Task
             dist: {                            // Target
@@ -30,25 +38,25 @@ module.exports = function(grunt) {
             sass: { 
                 files: ['__prototypes/002-nav-control/-/c/_scss/*.scss'],
                 tasks: ['sass']
-            }/*,
+            },
             scripts: {
-                files: ['www/-/j/_source/*.js'],
+                files: ['__prototypes/002-nav-control/-/j/_source/*.js'],
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
                 },
-            }*/
+            }
         }
 
     });
 
     // 3. Where we tell Grunt we plan to use this plug-in.
     grunt.loadNpmTasks('grunt-contrib-concat');
-    //grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
 
 };

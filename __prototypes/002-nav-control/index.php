@@ -23,10 +23,6 @@
     		    <h1>SuperFriendly</h1>
     		    <h2>Brave sites and apps for screens of all sizes.</h2>
 
-                <section class="wf" style="height: 20em;">
-                    <h2>Intro</h2>
-                </section><!-- .wf -->
-
             </div><!-- .main -->
 
         </section><!-- .screen -->
@@ -58,6 +54,65 @@
             <h1>EW</h1>
 
         </section><!-- .screen -->
+
+
+        <?php /* ?>
+        <section class="screen" id="work-rif">
+            
+            <h1>Reading Is Fundamental</h1>
+
+        </section><!-- .screen -->
+        <?php */ ?>
+
+
+        <section class="screen" id="work-7hd">
+            
+            <h1>Seven Heads Design</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-mastercard">
+            
+            <h1>MasterCard Cashless Pioneers</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-moodpik">
+            
+            <h1>MoodPik</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-no-chains">
+            
+            <h1>No Chains</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-1800contacts">
+            
+            <h1>1800contacts</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="about">
+            
+            <h1>About</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="contact">
+            
+            <h1>Contact</h1>
+
+        </section><!-- .screen -->
+
 
 	</div><!-- .clearfix -->
 
