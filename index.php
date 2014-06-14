@@ -36,6 +36,7 @@
 
     <ul>
         <li><a href="__prototypes/001-content-reference/">001: Content Reference Wireframes</a></li>
+        <li><a href="__prototypes/002-nav-control/">002: Nav Control</a></li>
     </ul>
 
 </body>
