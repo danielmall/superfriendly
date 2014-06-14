@@ -17,21 +17,47 @@
 
 	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
 
-	    <div class="main">
-		    <h1>SuperFriendly</h1>
-		    <h2>Brave sites and apps for screens of all sizes.</h2>
+        <section class="screen" id="main">
 
-            <section class="wf" style="height: 20em;">
-                <h2>Intro</h2>
-            </section><!-- .wf -->
+    	    <div class="main">
+    		    <h1>SuperFriendly</h1>
+    		    <h2>Brave sites and apps for screens of all sizes.</h2>
 
-            <nav class="pagination clearfix">
-                <ul>
-                    <li><a href="<?=$basepath?>/work/">Next</a></li>
-                </ul>
-            </nav><!-- .pagination -->
+                <section class="wf" style="height: 20em;">
+                    <h2>Intro</h2>
+                </section><!-- .wf -->
 
-        </div><!-- .main -->
+            </div><!-- .main -->
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work">
+            
+            <h1>Work</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-techcrunch">
+            
+            <h1>Techcrunch</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-grantland">
+            
+            <h1>Grantland</h1>
+
+        </section><!-- .screen -->
+
+
+        <section class="screen" id="work-ew">
+            
+            <h1>EW</h1>
+
+        </section><!-- .screen -->
 
 	</div><!-- .clearfix -->
 
