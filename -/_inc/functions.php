@@ -14,6 +14,7 @@ function createNavItem($url, $label){
         echo '<a class="current" href="' . $url . '">' . $label . '</a>';
     }else{
         echo '<a href="' . $url . '">' . $label . '</a>';
+        //echo '<a href="' . $url . '">a</a>';
     }
 }
 

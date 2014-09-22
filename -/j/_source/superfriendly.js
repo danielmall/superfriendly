@@ -15,7 +15,7 @@ var Site = function(){
 
     this.init = function(){
 
-        highlightNav();        
+        //highlightNav();        
 
     }
 

@@ -62,7 +62,7 @@
             <h1>Reading Is Fundamental</h1>
 
         </section><!-- .screen -->
-        <?php */ ?>
+        
 
 
         <section class="screen screen-7hd" id="work-7hd">
@@ -98,6 +98,7 @@
             <h1>1800contacts</h1>
 
         </section><!-- .screen -->
+        <?php */ ?>
 
 
         <section class="screen screen-about" id="about">
