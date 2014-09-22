@@ -24,69 +24,191 @@ http://superfriend.ly/
     Flag
 	(Thanks Jeremy: http://adactio.com/journal/5429/)
 -------------------------------------------*/
-body:after { content: 'mini'; display: none; }
+body:after { 
+    content: 'mini'; 
+    display: none; 
+}
 
 
 /*-------------------------------------------    
     Base     
 -------------------------------------------*/
-* { margin: 0; padding: 0; }
+* { 
+    margin: 0; 
+    padding: 0; 
+}
 
 /* apply a natural box layout model to all elements. Thanks, Paul: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, 
+*:before, 
+*:after { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
 
-html { font-size: 62.5%; } /* for rems */
-body { font: normal 62.5%/1.5 Helvetica, Arial, sans-serif; color: #333; }
+html { 
+    font-size: 62.5%; /* for rems */
+} 
+
+body { 
+    font: normal 62.5%/1.5 Helvetica, Arial, sans-serif; 
+    color: #333; 
+}
 
 
 /* block level */
 
-h1, .h1 { font: bold 4.2rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
-h2, .h2 { font: bold 1.8rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
-h3, .h3 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
-h4, h5, h6, .h4, .h5, .h6 { font: bold 1.2rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
+h1, 
+.h1 { 
+    font: bold 4.2rem Helvetica, Arial, sans-serif; 
+    margin: 0 0 0.5em; 
+}
 
-p, ul, dl, ol, table { font-size: 1.4rem; margin: 0 0 1.5em; }
+h2, 
+.h2 { 
+    font: bold 1.8rem Helvetica, Arial, sans-serif; 
+    margin: 0 0 1em; 
+}
 
-form { margin: 0 0 1.5em; }
+h3, 
+.h3 { 
+    font: bold 1.5rem Helvetica, Arial, sans-serif; 
+    margin: 0 0 1em; 
+}
+
+h4, 
+h5, 
+h6, 
+.h4, 
+.h5, 
+.h6 { 
+    font: bold 1.2rem Helvetica, Arial, sans-serif; 
+    margin: 0 0 1em; 
+}
+
+p, 
+ul, 
+dl, 
+ol, 
+table { 
+    font-size: 1.4rem; 
+    margin: 0 0 1.5em; 
+}
+
+form { 
+    margin: 0 0 1.5em; 
+}
 
 /* inline */
 
-label { font-size: 1.6rem; }
-input, select, textarea {  }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { }
-input.empty::-webkit-input-placeholder, textarea.empty::-webkit-input-placeholder { color: red; }
-input.empty:-moz-placeholder, textarea.empty:-moz-placeholder { color: red; }
-.error { color: red; }
+label { 
+    font-size: 1.6rem; 
+}
+
+input, 
+select, 
+textarea {  
+}
+
+input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder { 
+}
+
+input.empty::-webkit-input-placeholder, 
+textarea.empty::-webkit-input-placeholder { 
+    color: red; 
+}
+
+input.empty:-moz-placeholder, 
+textarea.empty:-moz-placeholder { 
+    color: red; 
+}
+
+.error { 
+    color: red; 
+}
 
 table { }
-    td { padding: 0.25em 1em; border-top: 1px solid #aaa; }
+    td { 
+        padding: 0.25em 1em; 
+        border-top: 1px solid #aaa; 
+    }
 
-em { font-style: italic; }
-strong { font-weight: bold; }
+em { 
+    font-style: italic; 
+}
 
-mark { background: none; font-style: normal; }
+strong { 
+    font-weight: bold; 
+}
 
-video { width: 100%; height: auto; }
+mark { 
+    background: none; 
+    font-style: normal; 
+}
 
-a { text-decoration: none; /*.transition(all, 0.25s, linear);*/ }
-a:hover, a:focus { color: red; }
+video { 
+    width: 100%; 
+    height: auto; 
+}
 
-img { display: block; margin: 0 10px 10px 0; max-width: 100%; }
+a { 
+    text-decoration: none; 
+    /*.transition(all, 0.25s, linear);*/ 
+}
 
-a img { border: none; }
+a:hover, 
+a:focus { 
+    color: red; 
+}
 
-i { font-style: normal; }
-b { font-weight: normal; }
+img { 
+    display: block; 
+    margin: 0 10px 10px 0; 
+    max-width: 100%; 
+}
 
-abbr, abbr[title], acronym { font-size: 75%; letter-spacing: 0.2em; text-transform: uppercase; border: none; }
+a img { 
+    border: none; 
+}
 
-code { font: 1.4rem/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
+i { 
+    font-style: normal; 
+}
 
-sub, sup { line-height: 0; }
+b { 
+    font-weight: normal; 
+}
 
-::selection { background: #2a69c2; color: #fff; }
-::-moz-selection { background: #2a69c2; color: #fff; }
+abbr, 
+abbr[title], 
+acronym { 
+    font-size: 75%; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase; 
+    border: none; 
+}
+
+code { 
+    font: 1.4rem/1 Consolas, 'Courier New', Courier, monospace; 
+    color: #999; 
+}
+
+sub, 
+sup { 
+    line-height: 0; 
+}
+
+::selection { 
+    background: #2a69c2; 
+    color: #fff; 
+}
+
+::-moz-selection { 
+    background: #2a69c2; 
+    color: #fff; 
+}
 
 
 /*-------------------------------------------    
@@ -124,14 +246,29 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
     Wireframes
 -------------------------------------------*/
-.main-nav mark { background: yellow; font-weight: bold; }
-.wf, .pagination { background: #eee; background: rgba(0, 0, 0, 0.1); padding: 2em; margin: 0 1% 1em; }
+.main-nav mark { 
+    background: yellow; 
+    font-weight: bold; 
+}
+
+.wf, 
+.pagination { 
+    background: #eee; 
+    background: rgba(0, 0, 0, 0.1); 
+    padding: 2em; 
+    margin: 0 1% 1em; 
+}
 
 
 /*-------------------------------------------    
     Layout
 -------------------------------------------*/
-.col50 { width: 46%; float: left; padding-left: 1%; padding-right: 1%; }
+.col50 { 
+    width: 46%; 
+    float: left; 
+    padding-left: 1%; 
+    padding-right: 1%; 
+}
 
 
 
@@ -254,70 +391,94 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
     Home
 -------------------------------------------*/
-.screen-main { background: #181818; }
+.screen-main { 
+    background: #181818; 
+}
 
 
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-.screen-work { background: #181818; }
+.screen-work { 
+    background: #181818; 
+}
 
 
 /*-------------------------------------------    
     Work: TechCrunch
 -------------------------------------------*/
-.screen-techcrunch { background: #179106; }
+.screen-techcrunch { 
+    background: #179106; 
+}
 
 
 /*-------------------------------------------    
     Work: Grantland
 -------------------------------------------*/
-.screen-grantland { background: #e2dad4; }
+.screen-grantland { 
+    background: #e2dad4; 
+}
 
 
 /*-------------------------------------------    
     Work: Entertainment Weekly
 -------------------------------------------*/
-.screen-ew { background: #1aa3af; }
+.screen-ew { 
+    background: #1aa3af; 
+}
 
 
 /*-------------------------------------------    
     Work: Seven Heads Design
 -------------------------------------------*/
-.screen-7hd { background: #fbe900; }
+.screen-7hd { 
+    background: #fbe900; 
+}
 
 
 /*-------------------------------------------    
     Work: Mastercard
 -------------------------------------------*/
-.screen-mastercard { background: #111; }
+.screen-mastercard { 
+    background: #111; 
+}
 
 
 /*-------------------------------------------    
     Work: Moodpik
 -------------------------------------------*/
-.screen-moodpik { background: #fff; }
+.screen-moodpik { 
+    background: #fff; 
+}
 
 
 /*-------------------------------------------    
     Work: No Chains
 -------------------------------------------*/
-.screen-no-chains { background: #ee6002; }
+.screen-no-chains { 
+    background: #ee6002; 
+}
 
 
 /*-------------------------------------------    
     Work: 1800contacts
 -------------------------------------------*/
-.screen-1800contacts { background: #26335a; }
+.screen-1800contacts { 
+    background: #26335a; 
+}
 
 
 /*-------------------------------------------    
     About
 -------------------------------------------*/
-.screen-about { background: #181818; }
+.screen-about { 
+    background: #181818; 
+}
 
 
 /*-------------------------------------------    
     Contact
 -------------------------------------------*/
-.screen-contact { background: #181818; }
+.screen-contact { 
+    background: #181818; 
+}
