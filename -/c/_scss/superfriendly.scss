@@ -139,10 +139,8 @@ sub, sup { line-height: 0; }
     Modules
 -------------------------------------------*/
 
-
-
 .main-nav { 
-    height: 70px;
+    height: 71px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -154,7 +152,7 @@ sub, sup { line-height: 0; }
 
     ul {
         margin: 0;
-        padding: 0;
+        padding: 0 0 0 5px;
         width: 1000px;
     }
 
@@ -165,11 +163,34 @@ sub, sup { line-height: 0; }
             background: black;
             //text-indent: -99999px;
             float: left;
-            margin: 6px 0 0 9px;
+            margin: 6px 9px 0 0;
 
             &:hover,
             &:focus {
                 background: red;
+            }
+
+            &:after { 
+                content: ""; 
+                display: block; 
+                width: 0; 
+                height: 0;
+                background: $mainColor; 
+                position: absolute; 
+                bottom: -6px; 
+                left: 0; 
+                @include transition(height, 0.25s, linear); 
+            }
+        }
+
+        .current > a { 
+            background: yellow; 
+            position: relative; 
+
+            &:after { 
+                width: 100%;
+                height: 4px;
+                @include transition(height, 0.25s, linear); 
             }
         }
 }
@@ -185,14 +206,28 @@ sub, sup { line-height: 0; }
 
             a { 
                 width: 197px; height: 113px; background: purple; display: block; margin: 0 0 13px 10px; float: none;
-                &:after { content: ""; display: block; width: 0; background: $mainColor; height: 100%; position: absolute; top: 0; left: -10px; @include transition(width, 0.25s, linear); }
+                
+                &:after {
+                    display: block;
+                    left: -10px;
+                    top: 0;
+                    bottom: auto;
+                    right: auto;
+                    @include transition(width, 0.25s, linear);
+                }
             }
             .nested1 a { width: 180px; }
 
         .current > a { 
-            background: yellow; position: relative; 
-            &:after { width: 4px; @include transition(width, 0.25s, linear); }
+            background: yellow; 
+            
+            &:after { 
+                width: 4px; 
+                height: 100%;
+                @include transition(width, 0.25s, linear); 
+            }
         }
+        
     }
 }
 
