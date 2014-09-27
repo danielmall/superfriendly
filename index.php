@@ -21,7 +21,14 @@
 
     	    <div class="main">
     		    <h1>SuperFriendly</h1>
-    		    <h2>Brave sites and apps for screens of all sizes.</h2>
+    		    <h2>A design collaborative!</h2>
+
+                <h1 class="pitch">If you work at an organization with complex problems involving people &amp; devices, we can help.</h1>
+
+                <ul>
+                    <li><a href="#">See who we&rsquo;ve helped</a></li>
+                    <li><a href="#">Get in touch</a></li>
+                </ul>
 
             </div><!-- .main -->
 
@@ -30,14 +37,34 @@
 
         <section class="screen screen-work" id="work">
             
-            <h1>Work</h1>
+            <h1>Our Work</h1>
+            <p>We&rsquo;ve collaborated with these organizations and more to produce exquisite design that people can use on screens of all sizes.</p>
+
+            <ul>
+                <li>Google</li>
+                <li>Apple</li>
+                <li>1800contacts</li>
+                <li>Time Inc</li>
+                <li>AOL</li>
+                <li>ESPN</li>
+                <li>Nabisco</li>
+                <li>WHYY</li>
+            </ul>
+
+            <h2>We&rsquo;re currently helping:</h2>
+
+            <ul>
+                <li>A media company shift their audience&rsquo;s perception of them from a book publisher to an idea generator and aggregator.</li>
+                <li>An internet company build some tools to improve internal workflow.</li>
+                <li><a href="http://rferl.org/">Radio Free Europe/Radio Liberty</a> craft a new design framework that helps them publish news more quickly. (Read about <a href="http://responsivedesign.rferl.org/">our open redesign</a>.)</li>
+            </ul>
 
         </section><!-- .screen -->
 
 
         <section class="screen screen-techcrunch" id="work-techcrunch">
             
-            <h1>Techcrunch</h1>
+            <h1>TechCrunch</h1>
 
         </section><!-- .screen -->
 

@@ -334,15 +334,46 @@ sup {
 
 @media screen and (min-width: 960px) {
 
-    .main { width: 70%; float: left; padding: 3em 0 0; width: 100%; padding: 0 250px 0 0; padding: 0; margin-right: 300px; }
+    .main { 
+        width: 70%; 
+        float: left; 
+        padding: 3em 0 0; 
+        width: 100%; 
+        padding: 0 250px 0 0; 
+        padding: 0; 
+        margin-right: 300px; 
+    }
 
     .main-nav { 
-        float: right; width: 25%; width: 225px; padding: 4em 0 0 5%; position: fixed; top: 0; right: 0; height: 100%; padding: 0; overflow: scroll; left: auto; bottom: auto;
+        float: right; 
+        width: 25%; 
+        width: 225px; 
+        padding: 4em 0 0 5%; 
+        position: fixed; 
+        top: 0; 
+        right: 0; 
+        height: 100%; 
+        padding: 0; 
+        overflow: scroll; 
+        left: auto; 
+        bottom: auto;
 
-        .nested1 { margin: 0 0 0 17px; }
+        ul {
+            width: auto;
+            padding: 6px 0 0;
+        }
+
+        .nested1 { 
+            margin: 0 0 0 17px; 
+        }
 
             a { 
-                width: 197px; height: 113px; background: purple; display: block; margin: 0 0 13px 10px; float: none;
+                width: 197px; 
+                height: 113px; 
+                background: purple; 
+                display: block; 
+                margin: 0 0 13px 10px; 
+                float: none;
                 
                 &:after {
                     display: block;
@@ -353,7 +384,10 @@ sup {
                     @include transition(width, 0.25s, linear);
                 }
             }
-            .nested1 a { width: 180px; }
+            
+            .nested1 a { 
+                width: 180px; 
+            }
 
         .current > a { 
             background: yellow; 
@@ -368,9 +402,14 @@ sup {
     }
 }
 
-.pagination { background: #fafafa;
-	ul { float: right; }
-		li { 
+.pagination { 
+    background: #fafafa;
+
+	ul { 
+        float: right; 
+    }
+	
+    	li { 
 			display: inline; 
 			&:first-child { margin-right: 1em; }
 		}
