@@ -20,7 +20,7 @@ var Site = function(){
     }
 
     var highlightNav = function(){
-        $('.main-nav').onePageNav({
+        $('.main-nav, .main-cta').onePageNav({
             easing: 'easeInOutQuint'
         });
     }

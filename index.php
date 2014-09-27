@@ -25,9 +25,9 @@
 
                 <h1 class="pitch">If you work at an organization with complex problems involving people &amp; devices, we can help.</h1>
 
-                <ul>
-                    <li><a href="#">See who we&rsquo;ve helped</a></li>
-                    <li><a href="#">Get in touch</a></li>
+                <ul class="main-cta">
+                    <li><a href="#work">See who we&rsquo;ve helped</a></li>
+                    <li><a href="#contact">Get in touch</a></li>
                 </ul>
 
             </div><!-- .main -->
@@ -139,7 +139,7 @@
 
             <p>SuperFriendly was started by Dan Mall, an award-winning design director. He is co-founder of Typedia and The Businessology Show. Dan was formerly a Design Director at Big Spaceship, Interactive Director at Happy Cog, technical editor for A List Apart, and singer/keyboard player for contemporary-Christian band Four24.</p>
 
-            <p>We’d love to talk to you about your next project. Drop us a line at info@superfriend.ly.</p>
+            <p>We&rsquo;d love to talk to you about your next project. Drop us a line at info@superfriend.ly.</p>
 
             <h2>Working with SuperFriendly</h2>
 
