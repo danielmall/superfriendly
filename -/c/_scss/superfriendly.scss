@@ -66,7 +66,9 @@ body {
 
 h1, 
 .h1 { 
-    font: bold 4.2rem $mainFontStack; 
+    color: #fff;
+    font: normal 72px $mainFontStack; 
+    font-size: 7.2rem;
     margin: 0 0 0.5em; 
 }
 
@@ -482,8 +484,8 @@ sup {
     width: 180px;
 
     @media screen and (min-width: 960px){
-        left: 0;
-        margin: 50px 0 0 0;
+        left: 20px;
+        margin: 70px 0 0 0;
         width: 450px;
         transform: scale(1.2);
     }
@@ -501,7 +503,7 @@ sup {
     @media screen and (min-width: 960px){
         font-size: 24px;
         font-size: 2.4rem;
-        left: 108px;
+        left: 128px;
         text-align: left;
         top: -90px;
     }
@@ -523,7 +525,7 @@ sup {
     @media screen and (min-width: 960px){
         font-size: 34px;
         font-size: 3.4rem;
-        margin: -1em 0 2em 108px;
+        margin: -1em 0 2em 128px;
         text-align: left;
         max-width: 700px;
     }
