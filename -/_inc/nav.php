@@ -3,8 +3,7 @@
     <nav class="main-nav">
     	<ul class="no-bullets">
     		<?php createNavItem($basepath . '/', 'Home'); ?>
-    		<li>
-                <?php createNavItem($basepath . '/work/', 'Work'); ?>
+            <?php createNavItem($basepath . '/work/', 'Work'); ?>
                 <ul class="no-bullets nested1">
                     <?php createNavItem($basepath . '/work/oreilly/', 'O&rsquo;Reilly'); ?>
                     <?php createNavItem($basepath . '/work/techcrunch/', 'TechCrunch'); ?>

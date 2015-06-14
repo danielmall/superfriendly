@@ -9,14 +9,21 @@ $basepath = '';
 //$basepath = '/__prototypes/001-content-outline';
 
 function createNavItem($url, $label){
-    //if(strstr($_SERVER['REQUEST_URI'], $url)) {
-	if($_SERVER['REQUEST_URI'] == $url) {
-        //echo '<mark>' . $label . '</mark>';
-        echo '<li class="current"><a href="' . $url . '">' . $label . '</a></li>';
-    }else{
-        echo '<li><a href="' . $url . '">' . $label . '</a></li>';
-        //echo '<a href="' . $url . '">a</a>';
-    }
+	if($label == "Work"){ // ugh, hacky
+		if($_SERVER['REQUEST_URI'] == $url) {
+	        echo '<li class="current"><a href="' . $url . '">' . $label . '</a>';
+	    }else{
+	        echo '<li><a href="' . $url . '">' . $label . '</a>';
+	    }		
+	}else{
+
+		if($_SERVER['REQUEST_URI'] == $url) {
+	        echo '<li class="current"><a href="' . $url . '">' . $label . '</a></li>';
+	    }else{
+	        echo '<li><a href="' . $url . '">' . $label . '</a></li>';
+	    }
+
+	}
 }
 
 ?>

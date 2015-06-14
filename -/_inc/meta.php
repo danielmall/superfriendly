@@ -3,7 +3,7 @@
     <meta name="description" content="" />
 
     <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
-    <meta name="viewport" content="width=device-width;initial-scale=1" />
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 

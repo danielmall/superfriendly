@@ -1,10 +1,14 @@
-$mainFontStack: Helvetica, Arial, sans-serif;
+$serifFontStack: Georgia, 'Times New Roman', serif;
+$sansFontStack: Helvetica, Arial, sans-serif;
 
 // colors
 $sfOrange: #fc2f07;
+$dark: #1e1e1e;
 
 // assignments
 $mainColor: $sfOrange;
+$slideColor: $dark;
+$mainFontStack: $serifFontStack;
 
 
 @mixin transition($transition-property, $transition-time, $method) {
