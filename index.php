@@ -13,17 +13,18 @@
     <![endif]-->
 
 
-    <div class="clearfix">
+    <div class="clearfix wrapper">
 
 	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
 
         <section class="screen screen-main" id="main">
 
     	    <div class="main">
-    		    <h1>SuperFriendly</h1>
-    		    <h2>A design collaborative!</h2>
+    		    <?php /* ?><h1>SuperFriendly</h1><?php */ ?>
+                <img class="sf-logo" src="/s/sf-logo.svg" alt="SuperFriendly" />
+    		    <h2 class="tagline">A design collaborative!</h2>
 
-                <h1 class="pitch">If you work at an organization with complex problems involving people &amp; devices, we can help.</h1>
+                <h1 class="pitch">If you work at one of the world&rsquo;s most important or interesting organizations and have complex problems involving people &amp; devices, <em class="pitch-cta">we can help</em>.</h1>
 
                 <ul class="main-cta">
                     <li><a href="#work">See who we&rsquo;ve helped</a></li>

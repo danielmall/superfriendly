@@ -24,6 +24,11 @@ http://superfriend.ly/
     Flag
 	(Thanks Jeremy: http://adactio.com/journal/5429/)
 -------------------------------------------*/
+html, 
+body {
+    height: 100%;
+}
+
 body:after { 
     content: 'mini'; 
     display: none; 
@@ -457,13 +462,74 @@ sup {
     }
 }
 
+.wrapper {
+    height: 99.8%;
+}
+
 
 /*-------------------------------------------    
     Home
 -------------------------------------------*/
 .screen-main { 
     background: #181818; 
+    height: 100%;
 }
+
+.sf-logo {    
+    left: 10px;
+    margin: 0 auto;
+    position: relative;
+    width: 180px;
+
+    @media screen and (min-width: 960px){
+        left: 0;
+        margin: 50px 0 0 0;
+        width: 450px;
+        transform: scale(1.2);
+    }
+
+}
+
+.tagline {
+    color: #929292;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+
+    @media screen and (min-width: 960px){
+        font-size: 24px;
+        font-size: 2.4rem;
+        left: 108px;
+        text-align: left;
+        top: -90px;
+    }
+}
+
+.pitch {
+    color: #b8b8b8;
+    font-size: 26px;
+    font-size: 2.6rem;
+    font-weight: normal;
+    margin: 0 0 2em;
+    text-align: center;
+
+    &-cta {
+        color: #fff;
+        font-style: normal;
+    }
+
+    @media screen and (min-width: 960px){
+        font-size: 34px;
+        font-size: 3.4rem;
+        margin: -1em 0 2em 108px;
+        text-align: left;
+        max-width: 700px;
+    }
+
+}
+
 
 
 /*-------------------------------------------    
