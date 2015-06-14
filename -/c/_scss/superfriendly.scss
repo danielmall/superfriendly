@@ -24,6 +24,11 @@ http://superfriend.ly/
     Flag
 	(Thanks Jeremy: http://adactio.com/journal/5429/)
 -------------------------------------------*/
+html, 
+body {
+    height: 100%;
+}
+
 body:after { 
     content: 'mini'; 
     display: none; 
@@ -52,7 +57,7 @@ html {
 } 
 
 body { 
-    font: normal 62.5%/1.5 Helvetica, Arial, sans-serif; 
+    font: normal 62.5%/1.5 $mainFontStack; 
     color: #333; 
 }
 
@@ -61,19 +66,21 @@ body {
 
 h1, 
 .h1 { 
-    font: bold 4.2rem Helvetica, Arial, sans-serif; 
+    color: #fff;
+    font: normal 72px $mainFontStack; 
+    font-size: 7.2rem;
     margin: 0 0 0.5em; 
 }
 
 h2, 
 .h2 { 
-    font: bold 1.8rem Helvetica, Arial, sans-serif; 
+    font: bold 1.8rem $mainFontStack; 
     margin: 0 0 1em; 
 }
 
 h3, 
 .h3 { 
-    font: bold 1.5rem Helvetica, Arial, sans-serif; 
+    font: bold 1.5rem $mainFontStack; 
     margin: 0 0 1em; 
 }
 
@@ -83,7 +90,7 @@ h6,
 .h4, 
 .h5, 
 .h6 { 
-    font: bold 1.2rem Helvetica, Arial, sans-serif; 
+    font: bold 1.2rem $mainFontStack; 
     margin: 0 0 1em; 
 }
 
@@ -247,7 +254,7 @@ sup {
     Wireframes
 -------------------------------------------*/
 .main-nav mark { 
-    background: yellow; 
+    // background: yellow; 
     font-weight: bold; 
 }
 
@@ -286,42 +293,64 @@ sup {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 0;
+    display: box;
+    -webkit-overflow-scrolling: touch;
+        /* magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/ */
 
     ul {
         margin: 0;
         padding: 0 0 0 5px;
-        width: 1000px;
+        // width: 90000px;
+        white-space: nowrap;
+        display: table;
     }
 
-        a {
-            width: 103px;
-            height: 58px;
-            display: block;
-            background: black;
-            //text-indent: -99999px;
-            float: left;
-            margin: 6px 9px 0 0;
+    .nested1 {
+        padding-left: 0;
+        display: block;
+    }
 
-            &:hover,
-            &:focus {
-                background: red;
-            }
-
-            &:after { 
-                content: ""; 
-                display: block; 
-                width: 0; 
-                height: 0;
-                background: $mainColor; 
-                position: absolute; 
-                bottom: -6px; 
-                left: 0; 
-                @include transition(height, 0.25s, linear); 
-            }
+        li {
+            display: table-cell;
+            margin: 0;
+            padding: 0;
         }
 
+        .nested1 li {
+            display: inline-block;
+        }
+
+            a {
+                width: 103px;
+                height: 58px;
+                line-height: 58px;
+                display: block;
+                background: $slideColor;
+                text-align: center;
+                color: #fff;
+                float: left;
+                margin: 6px 9px 0 0;
+
+                &:hover,
+                &:focus {
+                    background: red;
+                }
+
+                &:after { 
+                    content: ""; 
+                    display: block; 
+                    width: 0; 
+                    height: 0;
+                    background: $mainColor; 
+                    position: absolute; 
+                    bottom: -6px; 
+                    left: 0; 
+                    @include transition(height, 0.25s, linear); 
+                }
+            }
+
         .current > a { 
-            background: yellow; 
+            // background: yellow; 
             position: relative; 
 
             &:after { 
@@ -336,7 +365,7 @@ sup {
 
     .main { 
         width: 70%; 
-        float: left; 
+        //float: left; 
         padding: 3em 0 0; 
         width: 100%; 
         padding: 0 250px 0 0; 
@@ -345,7 +374,6 @@ sup {
     }
 
     .main-nav { 
-        float: right; 
         width: 25%; 
         width: 225px; 
         padding: 4em 0 0 5%; 
@@ -360,6 +388,8 @@ sup {
 
         ul {
             width: auto;
+            width: 100%;
+            overflow: none;
             padding: 6px 0 0;
         }
 
@@ -367,30 +397,37 @@ sup {
             margin: 0 0 0 17px; 
         }
 
-            a { 
-                width: 197px; 
-                height: 113px; 
-                background: purple; 
-                display: block; 
-                margin: 0 0 13px 10px; 
-                float: none;
-                
-                &:after {
-                    display: block;
-                    left: -10px;
-                    top: 0;
-                    bottom: auto;
-                    right: auto;
-                    @include transition(width, 0.25s, linear);
-                }
-            }
-            
-            .nested1 a { 
-                width: 180px; 
+            li,
+            .nested1 li {
+                display: block;
             }
 
+                a { 
+                    width: 197px; 
+                    height: 113px; 
+                    background: $slideColor; 
+                    text-align: center;
+                    color: #fff; 
+                    margin: 0 0 13px 10px; 
+                    float: none;
+                    line-height: 113px;
+                    
+                    &:after {
+                        display: block;
+                        left: -10px;
+                        top: 0;
+                        bottom: auto;
+                        right: auto;
+                        @include transition(width, 0.25s, linear);
+                    }
+                }
+                
+                .nested1 a { 
+                    width: 180px; 
+                }
+
         .current > a { 
-            background: yellow; 
+            // background: yellow; 
             
             &:after { 
                 width: 4px; 
@@ -417,13 +454,18 @@ sup {
 
 .screen { 
     background: blue;
-    min-height: 800px; 
+    //min-height: 800px; 
     border: 5px solid #fff; 
     border-bottom: 1px solid #fff; 
+    padding: 50px 30px;
 
     @media screen and (min-width: 960px){
         margin: 0 225px 0 0; 
     }
+}
+
+.wrapper {
+    height: 99.8%;
 }
 
 
@@ -432,7 +474,64 @@ sup {
 -------------------------------------------*/
 .screen-main { 
     background: #181818; 
+    height: 100%;
 }
+
+.sf-logo {    
+    left: 10px;
+    margin: 0 auto;
+    position: relative;
+    width: 180px;
+
+    @media screen and (min-width: 960px){
+        left: 20px;
+        margin: 70px 0 0 0;
+        width: 450px;
+        transform: scale(1.2);
+    }
+
+}
+
+.tagline {
+    color: #929292;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+
+    @media screen and (min-width: 960px){
+        font-size: 24px;
+        font-size: 2.4rem;
+        left: 128px;
+        text-align: left;
+        top: -90px;
+    }
+}
+
+.pitch {
+    color: #b8b8b8;
+    font-size: 26px;
+    font-size: 2.6rem;
+    font-weight: normal;
+    margin: 0 0 2em;
+    text-align: center;
+
+    &-cta {
+        color: #fff;
+        font-style: normal;
+    }
+
+    @media screen and (min-width: 960px){
+        font-size: 34px;
+        font-size: 3.4rem;
+        margin: -1em 0 2em 128px;
+        text-align: left;
+        max-width: 700px;
+    }
+
+}
+
 
 
 /*-------------------------------------------    
@@ -440,6 +539,14 @@ sup {
 -------------------------------------------*/
 .screen-work { 
     background: #181818; 
+}
+
+
+/*-------------------------------------------    
+    Work: O'Reilly
+-------------------------------------------*/
+.screen-oreilly { 
+    background: #b9002d; 
 }
 
 
