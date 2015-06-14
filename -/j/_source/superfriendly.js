@@ -3,7 +3,9 @@
 
 SUPERFRIENDLY
 JavaScript Functions
-Requires jQuery
+Requires jQuery*
+
+*maybe not
 
 Created by the epic SuperFriendly team.
 http://superfriend.ly/
@@ -15,14 +17,14 @@ var Site = function(){
 
     this.init = function(){
 
-        highlightNav();        
+        //highlightNav();        
 
     }
 
     var highlightNav = function(){
-        $('.main-nav, .main-cta').onePageNav({
+        /* $('.main-nav, .main-cta').onePageNav({
             easing: 'easeInOutQuint'
-        });
+        }); */
     }
 
     

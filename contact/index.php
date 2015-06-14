@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>SuperFriendly: Braves sites and apps for screens of all sizes</title>
+    <title>Contact SuperFriendly</title>
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/meta.php"); echo "\n"; ?>        
 
     <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/cssReference.php"); echo "\n"; ?>        
@@ -17,20 +17,10 @@
 
 	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
 
-        <section class="screen screen-main" id="main">
-
-    	    <div class="main">
-    		    <h1>SuperFriendly</h1>
-    		    <h2>A design collaborative!</h2>
-
-                <h1 class="pitch">If you work at an organization with complex problems involving people &amp; devices, we can help.</h1>
-
-                <ul class="main-cta">
-                    <li><a href="#work">See who we&rsquo;ve helped</a></li>
-                    <li><a href="#contact">Get in touch</a></li>
-                </ul>
-
-            </div><!-- .main -->
+        
+        <section class="screen screen-contact" id="contact">
+            
+            <h1>Contact</h1>
 
         </section><!-- .screen -->
 

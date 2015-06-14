@@ -2,24 +2,23 @@
 
     <nav class="main-nav">
     	<ul class="no-bullets">
-    		<li><a href="#main">Home</a></li>
+    		<?php createNavItem($basepath . '/', 'Home'); ?>
     		<li>
-                <?php createNavItem($basepath . '#work', 'Work'); ?>
+                <?php createNavItem($basepath . '/work/', 'Work'); ?>
                 <ul class="no-bullets nested1">
-                    <li><?php createNavItem($basepath . '#work-techcrunch', 'TechCrunch'); ?></li>
-                    <li><?php createNavItem($basepath . '#work-grantland', 'Grantland'); ?></li>
-                    <li><?php createNavItem($basepath . '#work-ew', 'Entertainment Weekly'); ?></li>
-                    <?php /* ?>
-                        <li><?php createNavItem($basepath . '#work-rif', 'Reading Is Fundamental'); ?></li>
-                        <li><?php createNavItem($basepath . '#work-7hd', 'Seven Heads Design'); ?></li>
-                        <li><?php createNavItem($basepath . '#work-mastercard', 'MasterCard Cashless Pioneers'); ?></li>
-                        <li><?php createNavItem($basepath . '#work-moodpik', 'MoodPik'); ?></li>
-                        <li><?php createNavItem($basepath . '#work-no-chains', 'No Chains'); ?></li>
-                        <li><?php createNavItem($basepath . '#work-1800contacts', '1800Contacts'); ?></li>                    
-                    <?php */ ?>
+                    <?php createNavItem($basepath . '/work/oreilly/', 'O&rsquo;Reilly'); ?>
+                    <?php createNavItem($basepath . '/work/techcrunch/', 'TechCrunch'); ?>
+                    <?php createNavItem($basepath . '/work/grantland/', 'Grantland'); ?>
+                    <?php createNavItem($basepath . '/work/entertainment-weekly/', 'Entertainment Weekly'); ?>
+                    <?php createNavItem($basepath . '/work/rif/', 'Reading Is Fundamental'); ?>
+                    <?php createNavItem($basepath . '/work/7hd/', 'Seven Heads Design'); ?>
+                    <?php createNavItem($basepath . '/work/mastercard/', 'MasterCard Cashless Pioneers'); ?>
+                    <?php createNavItem($basepath . '/work/moodpik/', 'MoodPik'); ?>
+                    <?php createNavItem($basepath . '/work/no-chains/', 'No Chains'); ?>
+                    <?php createNavItem($basepath . '/work/1800contacts/', '1800Contacts'); ?>
                 </ul>
             </li>    		
-    		<li><?php createNavItem($basepath . '#about', 'About'); ?></li>    		
-    		<li><?php createNavItem($basepath . '#contact', 'Contact'); ?></li>
+    		<?php createNavItem($basepath . '/about/', 'About'); ?>  		
+    		<?php createNavItem($basepath . '/contact/', 'Contact'); ?>
     	</ul>
     </nav><!-- .main-nav -->

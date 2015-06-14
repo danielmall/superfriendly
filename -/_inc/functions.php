@@ -9,11 +9,12 @@ $basepath = '';
 //$basepath = '/__prototypes/001-content-outline';
 
 function createNavItem($url, $label){
-    if(strstr($_SERVER['REQUEST_URI'], $url)) {
+    //if(strstr($_SERVER['REQUEST_URI'], $url)) {
+	if($_SERVER['REQUEST_URI'] == $url) {
         //echo '<mark>' . $label . '</mark>';
-        echo '<a class="current" href="' . $url . '">' . $label . '</a>';
+        echo '<li class="current"><a href="' . $url . '">' . $label . '</a></li>';
     }else{
-        echo '<a href="' . $url . '">' . $label . '</a>';
+        echo '<li><a href="' . $url . '">' . $label . '</a></li>';
         //echo '<a href="' . $url . '">a</a>';
     }
 }
