@@ -21,7 +21,7 @@
 
     	    <div class="main">
     		    <?php /* ?><h1>SuperFriendly</h1><?php */ ?>
-                <img class="sf-logo" src="/s/sf-logo.min.svg" alt="SuperFriendly" />
+                <img class="sf-logo" src="/s/sf-logo.svg" alt="SuperFriendly" />
     		    <h2 class="tagline">A design collaborative!</h2>
 
                 <h1 class="pitch">If you work at one of the world&rsquo;s most important or interesting organizations and have complex problems involving people &amp; devices, <em class="pitch-cta">we can help</em>.</h1>
