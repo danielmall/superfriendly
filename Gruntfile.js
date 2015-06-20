@@ -28,8 +28,21 @@ module.exports = function(grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {                         // Dictionary of files
-                    '-/c/superfriendly.min.css': '-/c/_scss/superfriendly.scss'       // 'destination': 'source'
+                    '-/c/superfriendly.min.css': '-/c/_scss/superfriendly.scss',       // 'destination': 'source'
+                    '-/c/critical.min.css': '-/c/critical.css'
                     /*'www/-/c/littleboxchallenge-enhanced.css': 'www/-/c/_scss/enhanced.scss'       // 'destination': 'source'*/
+                }
+            }
+        },
+
+        criticalcss: {
+            custom: {
+                options: {
+                    url: "http://sf.dev",
+                    width: 1200,
+                    height: 900,
+                    outputfile: "-/c/critical.css",
+                    filename: "-/c/superfriendly.min.css" // Using path.resolve( path.join( ... ) ) is a good idea here
                 }
             }
         },
@@ -52,11 +65,13 @@ module.exports = function(grunt) {
 
     // 3. Where we tell Grunt we plan to use this plug-in.
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-criticalcss');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
+    grunt.registerTask('default', ['sass', 'criticalcss', 'concat', 'uglify', 'watch']);
 
 };
