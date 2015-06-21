@@ -403,14 +403,15 @@ sup {
             }
 
                 a { 
-                    width: 197px; 
-                    height: 113px; 
-                    background: $slideColor; 
-                    text-align: center;
+                    background: $slideColor;                     
                     color: #fff; 
-                    margin: 0 0 13px 10px; 
                     float: none;
+                    font-size: 30px;
+                    height: 113px;                     
                     line-height: 113px;
+                    margin: 0 0 13px 10px; 
+                    text-align: center;
+                    width: 197px;                   
                     
                     &:after {
                         display: block;
