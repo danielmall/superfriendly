@@ -153,6 +153,7 @@ strong {
 mark { 
     background: none; 
     font-style: normal; 
+    font-weight: normal;
 }
 
 video { 
@@ -255,7 +256,7 @@ sup {
 -------------------------------------------*/
 .main-nav mark { 
     // background: yellow; 
-    font-weight: bold; 
+    // font-weight: bold; 
 }
 
 .wf, 
@@ -320,7 +321,7 @@ sup {
             display: inline-block;
         }
 
-            a {
+            .thumb {
                 width: 103px;
                 height: 58px;
                 line-height: 58px;
@@ -330,11 +331,6 @@ sup {
                 color: #fff;
                 float: left;
                 margin: 6px 9px 0 0;
-
-                &:hover,
-                &:focus {
-                    background: red;
-                }
 
                 &:after { 
                     content: ""; 
@@ -349,7 +345,12 @@ sup {
                 }
             }
 
-        .current > a { 
+                a.thumb:hover,
+                a.thumb:focus {
+                    opacity: 0.8;
+                }
+
+        .current > .thumb { 
             // background: yellow; 
             position: relative; 
 
@@ -402,15 +403,16 @@ sup {
                 display: block;
             }
 
-                a { 
-                    width: 197px; 
-                    height: 113px; 
-                    background: $slideColor; 
-                    text-align: center;
+                .thumb { 
+                    background: $slideColor;                     
                     color: #fff; 
-                    margin: 0 0 13px 10px; 
                     float: none;
+                    font-size: 30px;
+                    height: 113px;                     
                     line-height: 113px;
+                    margin: 0 0 13px 10px; 
+                    text-align: center;
+                    width: 197px;                   
                     
                     &:after {
                         display: block;
@@ -422,11 +424,11 @@ sup {
                     }
                 }
                 
-                .nested1 a { 
+                .nested1 .thumb { 
                     width: 180px; 
                 }
 
-        .current > a { 
+        .current > .thumb { 
             // background: yellow; 
             
             &:after { 
@@ -438,6 +440,20 @@ sup {
         
     }
 }
+
+.thumb-tc .thumb {
+    background: #179106;   
+}
+    .tc-shape {
+        position: relative;
+        top: 7px;
+        width: 50%;
+
+        @media screen and (min-width: 960px){
+            top: 10px;
+            width: auto;
+        }
+    }
 
 .pagination { 
     background: #fafafa;

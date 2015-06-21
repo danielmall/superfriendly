@@ -8,19 +8,19 @@ segmentURL($_SERVER['REQUEST_URI']);*/
 $basepath = '';
 //$basepath = '/__prototypes/001-content-outline';
 
-function createNavItem($url, $label){
-	if($label == "Work"){ // ugh, hacky
+function createNavItem($url, $className, $contents){
+	if($contents == "Work"){ // ugh, hacky
 		if($_SERVER['REQUEST_URI'] == $url) {
-	        echo '<li class="current"><a href="' . $url . '">' . $label . '</a>';
+	        echo '<li class="' . $className . ' current"><mark class="thumb">' . $contents . '</mark>';
 	    }else{
-	        echo '<li><a href="' . $url . '">' . $label . '</a>';
+	        echo '<li class="' . $className . '"><a class="thumb" href="' . $url . '">' . $contents . '</a>';
 	    }		
 	}else{
 
 		if($_SERVER['REQUEST_URI'] == $url) {
-	        echo '<li class="current"><a href="' . $url . '">' . $label . '</a></li>';
+	        echo '<li class="' . $className . ' current"><mark class="thumb">' . $contents . '</mark></li>';
 	    }else{
-	        echo '<li><a href="' . $url . '">' . $label . '</a></li>';
+	        echo '<li class="' . $className . '"><a class="thumb" href="' . $url . '">' . $contents . '</a></li>';
 	    }
 
 	}
