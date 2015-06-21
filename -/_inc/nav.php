@@ -32,7 +32,7 @@
                             createNavItem(
                                 $basepath . '/work/techcrunch/', 
                                 'thumb-tc',
-                                '<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="88" height="45" viewBox="0 0 88 45"><defs><style>.cls-1 { fill: #fff; fill-rule: evenodd; }</style></defs><path d="M88 30v15h-44v-30h14v15h30zm-59 15h-14v-30h-15v-15h44v15h-15v30zm59-45v15h-30v-15h30z" class="cls-1"/></svg>'
+                                '<svg class="tc-shape" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="88" height="45" viewBox="0 0 88 45" aria-labelledby="title"><defs><style>.tc-shape-path { fill: #fff; fill-rule: evenodd; }</style></defs><title>TechCrunch</title><path d="M88 30v15h-44v-30h14v15h30zm-59 15h-14v-30h-15v-15h44v15h-15v30zm59-45v15h-30v-15h30z" class="tc-shape-path"/></svg>'
                             ); 
                         ?>
 
@@ -117,6 +117,6 @@
                     'Contact'
                 ); 
             ?>
-            
+
     	</ul>
     </nav><!-- .main-nav -->

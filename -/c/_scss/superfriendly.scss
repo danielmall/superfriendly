@@ -153,6 +153,7 @@ strong {
 mark { 
     background: none; 
     font-style: normal; 
+    font-weight: normal;
 }
 
 video { 
@@ -255,7 +256,7 @@ sup {
 -------------------------------------------*/
 .main-nav mark { 
     // background: yellow; 
-    font-weight: bold; 
+    // font-weight: bold; 
 }
 
 .wf, 
@@ -320,7 +321,7 @@ sup {
             display: inline-block;
         }
 
-            a {
+            .thumb {
                 width: 103px;
                 height: 58px;
                 line-height: 58px;
@@ -330,11 +331,6 @@ sup {
                 color: #fff;
                 float: left;
                 margin: 6px 9px 0 0;
-
-                &:hover,
-                &:focus {
-                    background: red;
-                }
 
                 &:after { 
                     content: ""; 
@@ -349,7 +345,12 @@ sup {
                 }
             }
 
-        .current > a { 
+                a.thumb:hover,
+                a.thumb:focus {
+                    opacity: 0.8;
+                }
+
+        .current > .thumb { 
             // background: yellow; 
             position: relative; 
 
@@ -402,7 +403,7 @@ sup {
                 display: block;
             }
 
-                a { 
+                .thumb { 
                     background: $slideColor;                     
                     color: #fff; 
                     float: none;
@@ -423,11 +424,11 @@ sup {
                     }
                 }
                 
-                .nested1 a { 
+                .nested1 .thumb { 
                     width: 180px; 
                 }
 
-        .current > a { 
+        .current > .thumb { 
             // background: yellow; 
             
             &:after { 
@@ -439,6 +440,20 @@ sup {
         
     }
 }
+
+.thumb-tc .thumb {
+    background: #179106;   
+}
+    .tc-shape {
+        position: relative;
+        top: 7px;
+        width: 50%;
+
+        @media screen and (min-width: 960px){
+            top: 10px;
+            width: auto;
+        }
+    }
 
 .pagination { 
     background: #fafafa;
