@@ -281,7 +281,7 @@ sup {
 
 
 /*-------------------------------------------    
-    Modules
+    Nav
 -------------------------------------------*/
 
 .main-nav { 
@@ -441,10 +441,26 @@ sup {
     }
 }
 
+.thumb-home-shield {
+    left: -11px;
+    position: relative;
+    top: 10px;
+}
+
+    .thumb-home-shield-shape {
+        @media screen and (min-width: 960px){
+            width: 160px !important;
+        }
+    }
+
+.thumb-oreilly .thumb {
+    background: #c32032;
+}
+
 .thumb-tc .thumb {
     background: #179106;   
 }
-    .tc-shape {
+    .thumb-tc-logo {
         position: relative;
         top: 7px;
         width: 50%;
@@ -454,6 +470,11 @@ sup {
             width: auto;
         }
     }
+
+
+/*-------------------------------------------    
+    Modules
+-------------------------------------------*/   
 
 .pagination { 
     background: #fafafa;
