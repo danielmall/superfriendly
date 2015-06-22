@@ -455,21 +455,30 @@ sup {
 .thumb-oreilly .thumb {
     background: #c32032;
 }
+    .thumb-oreilly-logo {
+        position: relative;
+        top: 8px;
+        width: 35%;
+
+        @media screen and (min-width: 960px){
+            top: 18px;
+            width: 40%;
+        }
+
+    }
 
 .thumb-tc .thumb {
     background: #179106;   
 }
-    .thumb-tc-logo {
+    .thumb-ew-logo {
         position: relative;
-        top: 7px;
-        width: 50%;
-
-        @media screen and (min-width: 960px){
-            top: 10px;
-            width: auto;
-        }
+        top: 2px;
+        width: 70%;
     }
 
+.thumb-ew .thumb {
+    background: #1aa3af;
+}
 
 /*-------------------------------------------    
     Modules
