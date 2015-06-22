@@ -442,16 +442,15 @@ sup {
 }
 
 .thumb-home-shield {
-    left: -11px;
-    position: relative;
-    top: 10px;
-}
+    left: 1px;
+    width: 25%;    
 
-    .thumb-home-shield-shape {
-        @media screen and (min-width: 960px){
-            width: 160px !important;
-        }
+    @media screen and (min-width: 960px){
+        left: 0;
+        top: 18px;
     }
+
+}
 
 .thumb-oreilly .thumb {
     background: #c32032;
