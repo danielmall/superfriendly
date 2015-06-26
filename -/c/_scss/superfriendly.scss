@@ -441,8 +441,10 @@ sup {
     }
 }
 
-.thumb-home-shield {
+.thumb-home-shield {    
     left: 1px;
+    position: relative;
+    top: 10px;
     width: 25%;    
 
     @media screen and (min-width: 960px){
@@ -470,15 +472,51 @@ sup {
 .thumb-tc .thumb {
     background: #179106;   
 }
+    .thumb-tc-logo {
+        position: relative;
+        top: 6px;
+        width: 50%;
+
+        @media screen and (min-width: 960px){
+            top: 10px;
+            width: auto;
+        }
+    }
+
+.thumb-grantland .thumb {
+    background: #e8e7e3;
+}
+    .thumb-grantland-logo {
+        position: relative;
+        top: 10px;
+        width: 35%;
+
+        @media screen and (min-width: 960px){
+            top: 24px;
+        }
+    }
+
+.thumb-ew .thumb {
+    background: #1aa3af;
+}
     .thumb-ew-logo {
         position: relative;
         top: 2px;
         width: 70%;
     }
 
-.thumb-ew .thumb {
-    background: #1aa3af;
+.thumb-rif .thumb {
+    background: #0072c6;
 }
+    .thumb-rif-logo {
+        position: relative;
+        top: 14px;
+        width: 50%;
+
+        @media screen and (min-width: 960px){
+            top: 20px;
+        }
+    }
 
 /*-------------------------------------------    
     Modules

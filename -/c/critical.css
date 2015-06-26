@@ -30,16 +30,18 @@ img{ display: block; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; m
 .main-nav .nested1 .thumb{ width: 180px; }
 .main-nav .current > .thumb::after{ width: 4px; height: 100%; -webkit-transition-property: width; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial; }
 }
-.thumb-home-shield{ left: -11px; position: relative; top: 10px; }
+.thumb-home-shield{ left: 1px; width: 25%; }
 @media screen and (min-width: 960px){
-.thumb-home-shield-shape{ width: 160px !important; }
+.thumb-home-shield{ left: 0px; top: 18px; }
 }
 .thumb-oreilly .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(195, 32, 50); background-position: initial initial; background-repeat: initial initial; }
-.thumb-tc .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(23, 145, 6); background-position: initial initial; background-repeat: initial initial; }
-.thumb-tc-logo{ position: relative; top: 7px; width: 50%; }
+.thumb-oreilly-logo{ position: relative; top: 8px; width: 35%; }
 @media screen and (min-width: 960px){
-.thumb-tc-logo{ top: 10px; width: auto; }
+.thumb-oreilly-logo{ top: 18px; width: 40%; }
 }
+.thumb-tc .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(23, 145, 6); background-position: initial initial; background-repeat: initial initial; }
+.thumb-ew-logo{ position: relative; top: 2px; width: 70%; }
+.thumb-ew .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(26, 163, 175); background-position: initial initial; background-repeat: initial initial; }
 .screen{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: blue; border-top-width: 5px; border-right-width: 5px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-top: 50px; padding-right: 30px; padding-bottom: 50px; padding-left: 30px; background-position: initial initial; background-repeat: initial initial; }
 @media screen and (min-width: 960px){
 .screen{ margin-top: 0px; margin-right: 225px; margin-bottom: 0px; margin-left: 0px; }
