@@ -329,7 +329,7 @@ sup {
                 background: $slideColor;
                 text-align: center;
                 color: #fff;
-                float: left;
+                //float: left;
                 margin: 6px 9px 0 0;
 
                 &:after { 
@@ -383,14 +383,16 @@ sup {
         right: 0; 
         height: 100%; 
         padding: 0; 
-        overflow: scroll; 
+        overflow-y: scroll; 
         left: auto; 
         bottom: auto;
 
         ul {
             width: auto;
             width: 100%;
-            overflow: none;
+            width: 225px;
+            overflow: hidden;
+            overflow-y: scroll;
             padding: 6px 0 0;
         }
 
@@ -515,6 +517,20 @@ sup {
 
         @media screen and (min-width: 960px){
             top: 20px;
+        }
+    }
+
+.thumb-1800contacts .thumb {
+    background: #213871;
+}
+
+    .thumb-1800contacts-logo {
+        position: relative;
+        top: 8px;
+        width: 50%;
+
+        @media screen and (min-width: 960px){
+            top: 13px;
         }
     }
 
