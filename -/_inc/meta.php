@@ -1,5 +1,5 @@
 <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <?php /* ?><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><?php */ ?>
     <meta name="description" content="" />
 
     <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
