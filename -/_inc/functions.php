@@ -29,9 +29,9 @@ $basepath = '';
 function createNavItem($url, $className, $contents){
 	
 	if($_SERVER['REQUEST_URI'] == $url) {
-        echo '<article class="thumb-item ' . $className . ' current"><mark class="thumb">' . $contents . '</mark></article>';
+        echo '<div class="thumb-item ' . $className . ' current"><mark class="thumb">' . $contents . '</mark></div>';
     }else{
-        echo '<article class="thumb-item ' . $className . '"><a class="thumb" href="' . $url . '">' . $contents . '</a></article>';
+        echo '<div class="thumb-item ' . $className . '"><a href="' . $url . '" class="thumb">' . $contents . '</a></div>';
     }
 
 }

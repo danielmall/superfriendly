@@ -285,26 +285,36 @@ sup {
 -------------------------------------------*/
 
 .main-nav { 
-    height: 71px;
+    /*height: 71px;
     position: fixed;
     bottom: 0;
     left: 0;
     background: white;
-    width: 100%;
+    width: 100%;    
     overflow-x: scroll;
-    overflow-y: hidden;
     padding: 0;
-    -webkit-overflow-scrolling: touch; // magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/        
+    -webkit-overflow-scrolling: touch; // magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/*/      
+
+    background: white;
+    position: fixed;
+    bottom: 0;
+    height: 71px;
+    left: 0;
+    width: 100%;
+    overflow-x: scroll;  
 }
 
     .thumb-holder { 
-        background: blue;       
-        white-space: nowrap;
+        // background: blue;       
+        // white-space: nowrap;
+        // width: auto;
+
         width: auto;
+        white-space: nowrap;
     }
 
     .thumb-item {        
-        background: $slideColor;
+        /*background: $slideColor;
         color: #fff;
         display: inline-block;
         height: 58px;
@@ -312,7 +322,16 @@ sup {
         line-height: 0;
         margin: 6px 9px 0 0;
         text-align: center;
-        width: 103px;       
+        width: 103px;*/ 
+
+        background: #ccc;      
+        display: inline-block;
+        height: 58px;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+        width: 103px;
+        overflow: hidden;
 
         /*&:after { 
             content: ""; 
@@ -333,7 +352,7 @@ sup {
 
     }
 
-    .current > .thumb { 
+    /*.current > .thumb { 
             // background: yellow; 
             position: relative; 
 
@@ -342,7 +361,7 @@ sup {
                 height: 4px;
                 @include transition(height, 0.25s, linear); 
             }
-        }
+        }*/
 
     .thumb {
         background: green;
