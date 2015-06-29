@@ -372,7 +372,8 @@ sup {
     .main-nav { 
         bottom: auto; 
         height: 100%; 
-        left: auto; 
+        left: auto;
+        overflow-x: hidden; 
         overflow-y: scroll; 
         padding: 5px 0 0; 
         position: fixed; 
@@ -407,6 +408,15 @@ sup {
                 margin-left: 26px; 
                 width: 180px;
             }
+
+                .thumb {
+                    height: 113px;
+                    width: 197px;
+                }
+
+                .thumb-nested .thumb {
+                    width: 180px;
+                }
 }
 
 /*.thumb-home-shield {    
