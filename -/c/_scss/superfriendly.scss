@@ -285,16 +285,6 @@ sup {
 -------------------------------------------*/
 
 .main-nav { 
-    /*height: 71px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: white;
-    width: 100%;    
-    overflow-x: scroll;
-    padding: 0;
-    -webkit-overflow-scrolling: touch; // magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/*/      
-
     background: white;
     bottom: 0;
     height: 71px;
@@ -302,30 +292,16 @@ sup {
     overflow-x: scroll;  
     padding: 0 5px;
     position: fixed;
+    -webkit-overflow-scrolling: touch; // magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/
     width: 100%;
-    
 }
 
     .thumb-holder { 
-        // background: blue;       
-        // white-space: nowrap;
-        // width: auto;
-
         width: auto;
         white-space: nowrap;
     }
 
     .thumb-item {        
-        /*background: $slideColor;
-        color: #fff;
-        display: inline-block;
-        height: 58px;
-        line-height: 58px;
-        line-height: 0;
-        margin: 6px 9px 0 0;
-        text-align: center;
-        width: 103px;*/ 
-
         display: inline-block;
         font-size: 14px;
         font-size: 1.4rem;
@@ -378,7 +354,6 @@ sup {
 
     .main { 
         width: 70%; 
-        //float: left; 
         padding: 3em 0 0; 
         width: 100%; 
         padding: 0 250px 0 0; 
@@ -387,71 +362,15 @@ sup {
     }
 
     .main-nav { 
-        width: 25%; 
-        width: 225px; 
-        padding: 4em 0 0 5%; 
+        bottom: auto; 
+        height: 100%; 
+        left: auto; 
+        overflow-y: scroll; 
+        padding: 5px 0 0; 
         position: fixed; 
         top: 0; 
         right: 0; 
-        height: 100%; 
-        padding: 5px 0 0; 
-        overflow-y: scroll; 
-        left: auto; 
-        bottom: auto;
-
-        /*ul {
-            width: auto;
-            width: 100%;
-            width: 225px;
-            overflow: hidden;
-            overflow-y: scroll;
-            padding: 6px 0 0;
-        }*/
-
-        /*.nested1 { 
-            margin: 0 0 0 17px; 
-        }
-
-            li,
-            .nested1 li {
-                display: block;
-            }
-
-                .thumb { 
-                    background: $slideColor;                     
-                    color: #fff; 
-                    float: none;
-                    font-size: 30px;
-                    height: 113px;                     
-                    line-height: 113px;
-                    margin: 0 0 13px 10px; 
-                    text-align: center;
-                    width: 197px;                   
-                    
-                    &:after {
-                        display: block;
-                        left: -10px;
-                        top: 0;
-                        bottom: auto;
-                        right: auto;
-                        @include transition(width, 0.25s, linear);
-                    }
-                }
-                
-                .nested1 .thumb { 
-                    width: 180px; 
-                }
-
-        .current > .thumb { 
-            // background: yellow; 
-            
-            &:after { 
-                width: 4px; 
-                height: 100%;
-                @include transition(width, 0.25s, linear); 
-            }
-        }*/
-        
+        width: 225px; 
     }
 
         .thumb-holder {
