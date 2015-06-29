@@ -285,88 +285,75 @@ sup {
 -------------------------------------------*/
 
 .main-nav { 
-    height: 71px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     background: white;
+    bottom: 0;
+    height: 71px;
+    left: 0;
+    overflow-x: scroll;  
+    padding: 0 5px;
+    position: fixed;
+    -webkit-overflow-scrolling: touch; // magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/
     width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0;
-    display: box;
-    -webkit-overflow-scrolling: touch;
-        /* magical: http://benfrain.com/horizontal-scrolling-area-css-overflow-ios/ */
-
-    ul {
-        margin: 0;
-        padding: 0 0 0 5px;
-        // width: 90000px;
-        white-space: nowrap;
-        display: table;
-    }
-
-    .nested1 {
-        padding-left: 0;
-        display: block;
-    }
-
-        li {
-            display: table-cell;
-            margin: 0;
-            padding: 0;
-        }
-
-        .nested1 li {
-            display: inline-block;
-        }
-
-            .thumb {
-                width: 103px;
-                height: 58px;
-                line-height: 58px;
-                display: block;
-                background: $slideColor;
-                text-align: center;
-                color: #fff;
-                //float: left;
-                margin: 6px 9px 0 0;
-
-                &:after { 
-                    content: ""; 
-                    display: block; 
-                    width: 0; 
-                    height: 0;
-                    background: $mainColor; 
-                    position: absolute; 
-                    bottom: -6px; 
-                    left: 0; 
-                    @include transition(height, 0.25s, linear); 
-                }
-            }
-
-                a.thumb:hover,
-                a.thumb:focus {
-                    opacity: 0.8;
-                }
-
-        .current > .thumb { 
-            // background: yellow; 
-            position: relative; 
-
-            &:after { 
-                width: 100%;
-                height: 4px;
-                @include transition(height, 0.25s, linear); 
-            }
-        }
 }
+
+    .thumb-holder { 
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .thumb-item {        
+        display: inline-block;
+        font-size: 14px;
+        font-size: 1.4rem;
+        height: 65px;
+        line-height: 58px;
+        margin: 6px 9px 0 0;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        width: 103px;   
+
+        &:after { 
+            content: ""; 
+            display: block; 
+            width: 100%; 
+            height: 8px;
+            border-top: 4px solid #fff;
+            background: #fff; 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            @include transition(height, 0.25s, linear); 
+        }
+
+    }
+
+    .current {             
+        &:after { 
+            background: $mainColor;
+            // @include transition(height, 0.25s, linear); 
+        }
+    }
+
+    .thumb {        
+        background: $slideColor;
+        color: #fff;      
+        display: block;
+        height: 100%;
+        width: 100%;        
+    }
+
+    a.thumb:hover,
+    a.thumb:focus {
+        color: #fff;
+        opacity: 0.8;
+    }
 
 @media screen and (min-width: 960px) {
 
     .main { 
         width: 70%; 
-        //float: left; 
         padding: 3em 0 0; 
         width: 100%; 
         padding: 0 250px 0 0; 
@@ -375,72 +362,43 @@ sup {
     }
 
     .main-nav { 
-        width: 25%; 
-        width: 225px; 
-        padding: 4em 0 0 5%; 
+        bottom: auto; 
+        height: 100%; 
+        left: auto; 
+        overflow-y: scroll; 
+        padding: 5px 0 0; 
         position: fixed; 
         top: 0; 
         right: 0; 
-        height: 100%; 
-        padding: 0; 
-        overflow-y: scroll; 
-        left: auto; 
-        bottom: auto;
-
-        ul {
-            width: auto;
-            width: 100%;
-            width: 225px;
-            overflow: hidden;
-            overflow-y: scroll;
-            padding: 6px 0 0;
-        }
-
-        .nested1 { 
-            margin: 0 0 0 17px; 
-        }
-
-            li,
-            .nested1 li {
-                display: block;
-            }
-
-                .thumb { 
-                    background: $slideColor;                     
-                    color: #fff; 
-                    float: none;
-                    font-size: 30px;
-                    height: 113px;                     
-                    line-height: 113px;
-                    margin: 0 0 13px 10px; 
-                    text-align: center;
-                    width: 197px;                   
-                    
-                    &:after {
-                        display: block;
-                        left: -10px;
-                        top: 0;
-                        bottom: auto;
-                        right: auto;
-                        @include transition(width, 0.25s, linear);
-                    }
-                }
-                
-                .nested1 .thumb { 
-                    width: 180px; 
-                }
-
-        .current > .thumb { 
-            // background: yellow; 
-            
-            &:after { 
-                width: 4px; 
-                height: 100%;
-                @include transition(width, 0.25s, linear); 
-            }
-        }
-        
+        width: 225px; 
     }
+
+        .thumb-holder {
+            width: 225px;
+        }
+
+            .thumb-item {
+                display: block;
+                font-size: 30px;                                    
+                height: 113px;
+                line-height: 113px;
+                margin: 0 0 13px 10px; 
+                overflow: visible;
+                width: 197px;
+
+                &:after { 
+                    border: none;
+                    height: 113px;
+                    left: -10px;
+                    top: 0;
+                    width: 4px;
+                }   
+            }
+
+            .thumb-nested {
+                margin-left: 26px; 
+                width: 180px;
+            }
 }
 
 .thumb-home-shield {    
@@ -455,6 +413,7 @@ sup {
     }
 
 }
+
 
 .thumb-oreilly .thumb {
     background: #c32032;
@@ -485,6 +444,7 @@ sup {
         }
     }
 
+
 .thumb-grantland .thumb {
     background: #e8e7e3;
 }
@@ -498,6 +458,7 @@ sup {
         }
     }
 
+
 .thumb-ew .thumb {
     background: #1aa3af;
 }
@@ -506,6 +467,7 @@ sup {
         top: 2px;
         width: 70%;
     }
+
 
 .thumb-rif .thumb {
     background: #0072c6;
@@ -520,6 +482,7 @@ sup {
         }
     }
 
+
 .thumb-1800contacts .thumb {
     background: #213871;
 }
@@ -533,6 +496,7 @@ sup {
             top: 13px;
         }
     }
+
 
 /*-------------------------------------------    
     Modules

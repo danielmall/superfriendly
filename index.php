@@ -21,7 +21,7 @@
 
     <div class="clearfix wrapper">
 
-	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>        
+	    <?php require($_SERVER["DOCUMENT_ROOT"].$basepath."/-/_inc/nav.php"); echo "\n"; ?>
 
         <section class="screen screen-main" id="main">
 
