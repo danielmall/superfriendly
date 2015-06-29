@@ -365,13 +365,13 @@ sup {
         color: #fff;      
         display: block;
         height: 100%;
-        width: 100%;
+        width: 100%;        
+    }
 
-        &:hover,
-        &:focus {
-            color: #fff;
-            opacity: 0.8;
-        }
+    a.thumb:hover,
+    a.thumb:focus {
+        color: #fff;
+        opacity: 0.8;
     }
 
 @media screen and (min-width: 960px) {
@@ -482,7 +482,7 @@ sup {
             }
 }
 
-/*.thumb-home-shield {    
+.thumb-home-shield {    
     left: 1px;
     position: relative;
     top: 10px;
@@ -494,6 +494,7 @@ sup {
     }
 
 }
+
 
 .thumb-oreilly .thumb {
     background: #c32032;
@@ -524,6 +525,7 @@ sup {
         }
     }
 
+
 .thumb-grantland .thumb {
     background: #e8e7e3;
 }
@@ -537,6 +539,7 @@ sup {
         }
     }
 
+
 .thumb-ew .thumb {
     background: #1aa3af;
 }
@@ -545,6 +548,7 @@ sup {
         top: 2px;
         width: 70%;
     }
+
 
 .thumb-rif .thumb {
     background: #0072c6;
@@ -559,6 +563,7 @@ sup {
         }
     }
 
+
 .thumb-1800contacts .thumb {
     background: #213871;
 }
@@ -571,11 +576,8 @@ sup {
         @media screen and (min-width: 960px){
             top: 13px;
         }
-    }*/
+    }
 
-.thumb-item svg {
-    display: none;
-}
 
 /*-------------------------------------------    
     Modules
