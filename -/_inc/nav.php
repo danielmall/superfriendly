@@ -5,12 +5,116 @@
         <div class="thumb-holder">
 
     		<?php 
-                createNavItem(
+                /*createNavItem(
                     $basepath . '/', 
                     'thumb-home',
                     '<svg class="thumb-home-shield" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 55" enable-background="new 0 0 45 55" aria-labelledby="thumb-home-title"><title id="thumb-home-title">SuperFriendly</title><path fill="#F04D23" d="M22.5 55c-23.5-9-22.5-19.5-22.5-19.5v-30.5c6.1-4.6 21.2-5 22.4-5h.2c1.3 0 16.3.4 22.4 5v30.6c0-.1.9 10.4-22.5 19.4z"/><path fill="#fff" d="M30.9 14.1h-14.2c-6.1 0-6.1 6.5-6.1 6.5 0 4.9 3.2 6 4.4 6.4h-4.7v4.7c0 3.4 2.5 4.1 3.9 4.2v.1h1.1v-14.4c0-3.1 4-2.9 4-2.9h10.4v4.2h-9.7v4.6h9.8v.8c0 3.1-4 2.9-4 2.9h-5.8v4.6h8.6c6.1 0 6.1-6.5 6.1-6.5 0-5.4-3.5-6.2-4.3-6.4h4.6v-4.7c-.1-3.3-2.6-4-4.1-4.1z"/></svg>'
+                );*/
+
+                createNavItem(
+                    $basepath . '/', 
+                    'thumb-symbol thumb-home',
+                    'Home'
                 );
+
+                createNavItem(
+                    $basepath . '/work/',
+                    'thumb-work', 
+                    'Work'
+                );
+
+                createNavItem(
+                    $basepath . '/work/oreilly/', 
+                    'thumb-symbol thumb-nested thumb-oreilly',
+                    'O&rsquo;Reilly'
+                );
+
+                createNavItem(
+                    $basepath . '/work/techcrunch/', 
+                    'thumb-symbol thumb-nested thumb-tc',
+                    'TechCrunch'
+                );  
+
+                createNavItem(
+                    $basepath . '/work/grantland/', 
+                    'thumb-symbol thumb-nested thumb-grantland',
+                    'Grantland'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/entertainment-weekly/', 
+                    'thumb-symbol thumb-nested thumb-ew',
+                    'Entertainment Weekly'
+                );
+
+                createNavItem(
+                    $basepath . '/work/rferl/', 
+                    'thumb-nested thumb-rferl',
+                    'Radio Free Europe'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/rif/', 
+                    'thumb-symbol thumb-nested thumb-rif',
+                    'Reading Is Fundamental'
+                );  
+
+                createNavItem(
+                    $basepath . '/work/7hd/', 
+                    'thumb-nested thumb-7hd',
+                    'Seven Heads Design'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/mastercard/', 
+                    'thumb-nested thumb-mastercard',
+                    'MasterCard Cashless Pioneers'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/moodpik/', 
+                    'thumb-nested thumb-moodpik',
+                    'MoodPik'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/no-chains/', 
+                    'thumb-nested thumb-no-chains',
+                    'No Chains'
+                ); 
+
+                createNavItem(
+                    $basepath . '/work/1800contacts/', 
+                    'thumb-symbol thumb-nested thumb-1800contacts',
+                    '1800Contacts'
+                );
+
+                createNavItem(
+                    $basepath . '/about/', 
+                    'thumb-about',
+                    'About'
+                );
+
+                createNavItem(
+                    $basepath . '/academy/', 
+                    'thumb-academy',
+                    'Academy'
+                );
+
+                createNavItem(
+                    $basepath . '/rescue-ops/', 
+                    'thumb-rescue-ops',
+                    'Rescue Ops'
+                );
+
+                createNavItem(
+                    $basepath . '/contact/', 
+                    'thumb-contact',
+                    'Contact'
+                ); 
             ?>
+
+            <?php /* ?>
 
             <?php 
                 createNavItem(
@@ -137,6 +241,8 @@
                     'Contact'
                 ); 
             ?>
+
+            <?php */ ?>
 
         </div><!-- .thumb-holder -->
 
