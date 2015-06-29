@@ -464,10 +464,15 @@ sup {
                 height: 113px;
                 line-height: 113px;
                 margin: 0 0 13px 10px; 
+                overflow: visible;
                 width: 197px;
 
                 &:after { 
-                    display: none;                     
+                    border: none;
+                    height: 113px;
+                    left: -10px;
+                    top: 0;
+                    width: 4px;
                 }   
             }
 
