@@ -4,10 +4,7 @@ body::after{ content: mini; display: none; }
 *{ box-sizing: border-box; }
 html{ font-size: 62.5%; }
 body{ font: normal normal normal 62.5%/1.5 Georgia, 'Times New Roman', serif; color: rgb(51, 51, 51); }
-h2{ font: normal normal bold 1.8rem/normal Georgia, 'Times New Roman', serif; margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; }
 mark{ background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; font-style: normal; font-weight: normal; background-position: initial initial; background-repeat: initial initial; }
-a{ text-decoration: none; }
-img{ display: block; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; max-width: 100%; }
 .clearfix::after{ content: '.'; display: block; height: 0px; clear: both; visibility: hidden; }
 .main-nav{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white; bottom: 0px; height: 71px; left: 0px; overflow-x: scroll; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; position: fixed; width: 100%; background-position: initial initial; background-repeat: initial initial; }
 .thumb-holder{ width: auto; white-space: nowrap; }
@@ -16,55 +13,13 @@ img{ display: block; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; m
 .current::after{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(252, 47, 7); background-position: initial initial; background-repeat: initial initial; }
 .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(30, 30, 30); color: rgb(255, 255, 255); display: block; height: 100%; width: 100%; background-position: initial initial; background-repeat: initial initial; }
 @media screen and (min-width: 960px){
-.main{ width: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-right: 300px; }
 .main-nav{ bottom: auto; height: 100%; left: auto; overflow-y: scroll; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: fixed; top: 0px; right: 0px; width: 225px; }
-.thumb-holder{ width: 225px; }
-.thumb-item{ display: block; font-size: 30px; height: 113px; line-height: 113px; margin-top: 0px; margin-right: 0px; margin-bottom: 13px; margin-left: 10px; overflow-x: visible; overflow-y: visible; width: 197px; }
+.thumb-holder{ width: 225px; position: relative; }
+.thumb-item{ display: block; font-size: 30px; height: 113px; line-height: 113px; margin-top: 0px; margin-right: 0px; margin-bottom: 13px; margin-left: 10px; overflow-x: visible; overflow-y: visible; position: absolute; top: 0px; width: 197px; }
 .thumb-item::after{ border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; height: 113px; left: -10px; top: 0px; width: 4px; }
-.thumb-nested{ margin-left: 26px; width: 180px; }
 }
 .thumb-home-shield{ left: 1px; position: relative; top: 10px; width: 25%; }
 @media screen and (min-width: 960px){
 .thumb-home-shield{ left: 0px; top: 18px; }
 }
-.thumb-oreilly .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(195, 32, 50); background-position: initial initial; background-repeat: initial initial; }
-.thumb-oreilly-logo{ position: relative; top: 8px; width: 35%; }
-@media screen and (min-width: 960px){
-.thumb-oreilly-logo{ top: 18px; width: 40%; }
-}
-.thumb-tc .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(23, 145, 6); background-position: initial initial; background-repeat: initial initial; }
-.thumb-tc-logo{ position: relative; top: 6px; width: 50%; }
-@media screen and (min-width: 960px){
-.thumb-tc-logo{ top: 10px; width: auto; }
-}
-.thumb-grantland .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(232, 231, 227); background-position: initial initial; background-repeat: initial initial; }
-.thumb-grantland-logo{ position: relative; top: 10px; width: 35%; }
-@media screen and (min-width: 960px){
-.thumb-grantland-logo{ top: 24px; }
-}
-.thumb-ew .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(26, 163, 175); background-position: initial initial; background-repeat: initial initial; }
-.thumb-ew-logo{ position: relative; top: 2px; width: 70%; }
-.thumb-rif .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 114, 198); background-position: initial initial; background-repeat: initial initial; }
-.thumb-rif-logo{ position: relative; top: 14px; width: 50%; }
-@media screen and (min-width: 960px){
-.thumb-rif-logo{ top: 20px; }
-}
-.thumb-1800contacts .thumb{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(33, 56, 113); background-position: initial initial; background-repeat: initial initial; }
-.thumb-1800contacts-logo{ position: relative; top: 8px; width: 50%; }
-@media screen and (min-width: 960px){
-.thumb-1800contacts-logo{ top: 13px; }
-}
-.screen{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: blue; border-top-width: 5px; border-right-width: 5px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-top: 50px; padding-right: 30px; padding-bottom: 50px; padding-left: 30px; background-position: initial initial; background-repeat: initial initial; }
-@media screen and (min-width: 960px){
-.screen{ margin-top: 0px; margin-right: 225px; margin-bottom: 0px; margin-left: 0px; }
-}
 .wrapper{ height: 99.8%; }
-.screen-main{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(24, 24, 24); height: 100%; background-position: initial initial; background-repeat: initial initial; }
-.sf-logo{ left: 10px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; position: relative; width: 180px; }
-@media screen and (min-width: 960px){
-.sf-logo{ left: 20px; margin-top: 70px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; width: 450px; }
-}
-.tagline{ color: rgb(146, 146, 146); font-size: 1.5rem; font-weight: normal; position: relative; text-align: center; }
-@media screen and (min-width: 960px){
-.tagline{ font-size: 2.4rem; left: 128px; text-align: left; top: -90px; }
-}
