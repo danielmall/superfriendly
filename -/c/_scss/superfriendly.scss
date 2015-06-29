@@ -394,21 +394,21 @@ sup {
         top: 0; 
         right: 0; 
         height: 100%; 
-        padding: 0; 
+        padding: 5px 0 0; 
         overflow-y: scroll; 
         left: auto; 
         bottom: auto;
 
-        ul {
+        /*ul {
             width: auto;
             width: 100%;
             width: 225px;
             overflow: hidden;
             overflow-y: scroll;
             padding: 6px 0 0;
-        }
+        }*/
 
-        .nested1 { 
+        /*.nested1 { 
             margin: 0 0 0 17px; 
         }
 
@@ -450,9 +450,31 @@ sup {
                 height: 100%;
                 @include transition(width, 0.25s, linear); 
             }
-        }
+        }*/
         
     }
+
+        .thumb-holder {
+            width: 225px;
+        }
+
+            .thumb-item {
+                display: block;
+                font-size: 30px;                                    
+                height: 113px;
+                line-height: 113px;
+                margin: 0 0 13px 10px; 
+                width: 197px;
+
+                &:after { 
+                    display: none;                     
+                }   
+            }
+
+            .thumb-nested {
+                margin-left: 26px; 
+                width: 180px;
+            }
 }
 
 /*.thumb-home-shield {    
